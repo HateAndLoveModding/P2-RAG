@@ -1,0 +1,9 @@
+# Psalms 120
+
+Psalms 120:1 A Song of degrees. In my distress I cried unto the Lord, and he heard me.
+Psalms 120:2 Deliver my soul, O Lord, from lying lips, and from a deceitful tongue.
+Psalms 120:3 What shall be given unto thee? or what shall be done unto thee, thou false tongue?
+Psalms 120:4 Sharp arrows of the mighty, with coals of juniper.
+Psalms 120:5 Woe is me, that I sojourn in Mesech, that I dwell in the tents of Kedar!
+Psalms 120:6 My soul hath long dwelt with him that hateth peace.
+Psalms 120:7 I am for peace: but when I speak, they are for war.

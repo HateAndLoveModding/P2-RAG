@@ -1,0 +1,9 @@
+# Psalms 54
+
+Psalms 54:1 To the chief Musician on Neginoth, Maschil, A Psalm of David, when the Ziphims came and said to Saul, Doth not David hide himself with us? Save me, O God, by thy name, and judge me by thy strength.
+Psalms 54:2 Hear my prayer, O God; give ear to the words of my mouth.
+Psalms 54:3 For strangers are risen up against me, and oppressors seek after my soul: they have not set God before them. Selah.
+Psalms 54:4 Behold, God is mine helper: the Lord is with them that uphold my soul.
+Psalms 54:5 He shall reward evil unto mine enemies: cut them off in thy truth.
+Psalms 54:6 I will freely sacrifice unto thee: I will praise thy name, O Lord; for it is good.
+Psalms 54:7 For he hath delivered me out of all trouble: and mine eye hath seen his desire upon mine enemies.

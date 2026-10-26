@@ -1,1 +1,972 @@
 docid	title	source	license	notes
+1_corinthians_01	1 Corinthians 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Corinthians_01.md
+1_corinthians_02	1 Corinthians 2	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Corinthians_02.md
+1_corinthians_03	1 Corinthians 3	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Corinthians_03.md
+1_corinthians_04	1 Corinthians 4	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Corinthians_04.md
+1_corinthians_05	1 Corinthians 5	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Corinthians_05.md
+1_corinthians_06	1 Corinthians 6	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Corinthians_06.md
+1_corinthians_07	1 Corinthians 7	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Corinthians_07.md
+1_corinthians_08	1 Corinthians 8	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Corinthians_08.md
+1_corinthians_09	1 Corinthians 9	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Corinthians_09.md
+1_corinthians_10	1 Corinthians 10	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Corinthians_10.md
+1_corinthians_11	1 Corinthians 11	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Corinthians_11.md
+1_corinthians_12	1 Corinthians 12	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Corinthians_12.md
+1_corinthians_13	1 Corinthians 13	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Corinthians_13.md
+1_corinthians_14	1 Corinthians 14	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Corinthians_14.md
+1_corinthians_15	1 Corinthians 15	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Corinthians_15.md
+1_corinthians_16	1 Corinthians 16	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Corinthians_16.md
+1_john_01	1 John 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_John_01.md
+1_john_02	1 John 2	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_John_02.md
+1_john_03	1 John 3	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_John_03.md
+1_john_04	1 John 4	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_John_04.md
+1_john_05	1 John 5	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_John_05.md
+1_kings_01	1 Kings 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Kings_01.md
+1_kings_02	1 Kings 2	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Kings_02.md
+1_kings_03	1 Kings 3	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Kings_03.md
+1_kings_04	1 Kings 4	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Kings_04.md
+1_kings_05	1 Kings 5	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Kings_05.md
+1_kings_06	1 Kings 6	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Kings_06.md
+1_kings_07	1 Kings 7	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Kings_07.md
+1_kings_08	1 Kings 8	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Kings_08.md
+1_kings_09	1 Kings 9	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Kings_09.md
+1_kings_10	1 Kings 10	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Kings_10.md
+1_kings_11	1 Kings 11	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Kings_11.md
+1_kings_12	1 Kings 12	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Kings_12.md
+1_kings_13	1 Kings 13	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Kings_13.md
+1_kings_14	1 Kings 14	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Kings_14.md
+1_kings_15	1 Kings 15	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Kings_15.md
+1_kings_16	1 Kings 16	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Kings_16.md
+1_kings_17	1 Kings 17	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Kings_17.md
+1_kings_18	1 Kings 18	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Kings_18.md
+1_kings_19	1 Kings 19	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Kings_19.md
+1_kings_20	1 Kings 20	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Kings_20.md
+1_kings_21	1 Kings 21	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Kings_21.md
+1_kings_22	1 Kings 22	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Kings_22.md
+1_peter_01	1 Peter 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Peter_01.md
+1_peter_02	1 Peter 2	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Peter_02.md
+1_peter_03	1 Peter 3	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Peter_03.md
+1_peter_04	1 Peter 4	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Peter_04.md
+1_peter_05	1 Peter 5	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Peter_05.md
+1_samuel_01	1 Samuel 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Samuel_01.md
+1_samuel_02	1 Samuel 2	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Samuel_02.md
+1_samuel_03	1 Samuel 3	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Samuel_03.md
+1_samuel_04	1 Samuel 4	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Samuel_04.md
+1_samuel_05	1 Samuel 5	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Samuel_05.md
+1_samuel_06	1 Samuel 6	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Samuel_06.md
+1_samuel_07	1 Samuel 7	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Samuel_07.md
+1_samuel_08	1 Samuel 8	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Samuel_08.md
+1_samuel_09	1 Samuel 9	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Samuel_09.md
+1_samuel_10	1 Samuel 10	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Samuel_10.md
+1_samuel_11	1 Samuel 11	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Samuel_11.md
+1_samuel_12	1 Samuel 12	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Samuel_12.md
+1_samuel_13	1 Samuel 13	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Samuel_13.md
+1_samuel_14	1 Samuel 14	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Samuel_14.md
+1_samuel_15	1 Samuel 15	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Samuel_15.md
+1_samuel_16	1 Samuel 16	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Samuel_16.md
+1_samuel_17	1 Samuel 17	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Samuel_17.md
+1_samuel_18	1 Samuel 18	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Samuel_18.md
+1_samuel_19	1 Samuel 19	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Samuel_19.md
+1_samuel_20	1 Samuel 20	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Samuel_20.md
+1_samuel_21	1 Samuel 21	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Samuel_21.md
+1_samuel_22	1 Samuel 22	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Samuel_22.md
+1_samuel_23	1 Samuel 23	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Samuel_23.md
+1_samuel_24	1 Samuel 24	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Samuel_24.md
+1_samuel_25	1 Samuel 25	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Samuel_25.md
+1_samuel_26	1 Samuel 26	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Samuel_26.md
+1_samuel_27	1 Samuel 27	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Samuel_27.md
+1_samuel_28	1 Samuel 28	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Samuel_28.md
+1_samuel_29	1 Samuel 29	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Samuel_29.md
+1_samuel_30	1 Samuel 30	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Samuel_30.md
+1_samuel_31	1 Samuel 31	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Samuel_31.md
+1_thessalonians_01	1 Thessalonians 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Thessalonians_01.md
+1_thessalonians_02	1 Thessalonians 2	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Thessalonians_02.md
+1_thessalonians_03	1 Thessalonians 3	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Thessalonians_03.md
+1_thessalonians_04	1 Thessalonians 4	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Thessalonians_04.md
+1_thessalonians_05	1 Thessalonians 5	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Thessalonians_05.md
+1_timothy_01	1 Timothy 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Timothy_01.md
+1_timothy_02	1 Timothy 2	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Timothy_02.md
+1_timothy_03	1 Timothy 3	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Timothy_03.md
+1_timothy_04	1 Timothy 4	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Timothy_04.md
+1_timothy_05	1 Timothy 5	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Timothy_05.md
+1_timothy_06	1 Timothy 6	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 1_Timothy_06.md
+2_corinthians_01	2 Corinthians 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Corinthians_01.md
+2_corinthians_02	2 Corinthians 2	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Corinthians_02.md
+2_corinthians_03	2 Corinthians 3	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Corinthians_03.md
+2_corinthians_04	2 Corinthians 4	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Corinthians_04.md
+2_corinthians_05	2 Corinthians 5	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Corinthians_05.md
+2_corinthians_06	2 Corinthians 6	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Corinthians_06.md
+2_corinthians_07	2 Corinthians 7	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Corinthians_07.md
+2_corinthians_08	2 Corinthians 8	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Corinthians_08.md
+2_corinthians_09	2 Corinthians 9	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Corinthians_09.md
+2_corinthians_10	2 Corinthians 10	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Corinthians_10.md
+2_corinthians_11	2 Corinthians 11	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Corinthians_11.md
+2_corinthians_12	2 Corinthians 12	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Corinthians_12.md
+2_corinthians_13	2 Corinthians 13	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Corinthians_13.md
+2_john_01	2 John 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_John_01.md
+2_kings_01	2 Kings 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Kings_01.md
+2_kings_02	2 Kings 2	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Kings_02.md
+2_kings_03	2 Kings 3	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Kings_03.md
+2_kings_04	2 Kings 4	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Kings_04.md
+2_kings_05	2 Kings 5	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Kings_05.md
+2_kings_06	2 Kings 6	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Kings_06.md
+2_kings_07	2 Kings 7	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Kings_07.md
+2_kings_08	2 Kings 8	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Kings_08.md
+2_kings_09	2 Kings 9	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Kings_09.md
+2_kings_10	2 Kings 10	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Kings_10.md
+2_kings_11	2 Kings 11	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Kings_11.md
+2_kings_12	2 Kings 12	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Kings_12.md
+2_kings_13	2 Kings 13	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Kings_13.md
+2_kings_14	2 Kings 14	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Kings_14.md
+2_kings_15	2 Kings 15	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Kings_15.md
+2_kings_16	2 Kings 16	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Kings_16.md
+2_kings_17	2 Kings 17	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Kings_17.md
+2_kings_18	2 Kings 18	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Kings_18.md
+2_kings_19	2 Kings 19	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Kings_19.md
+2_kings_20	2 Kings 20	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Kings_20.md
+2_kings_21	2 Kings 21	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Kings_21.md
+2_kings_22	2 Kings 22	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Kings_22.md
+2_kings_23	2 Kings 23	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Kings_23.md
+2_kings_24	2 Kings 24	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Kings_24.md
+2_kings_25	2 Kings 25	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Kings_25.md
+2_peter_01	2 Peter 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Peter_01.md
+2_peter_02	2 Peter 2	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Peter_02.md
+2_peter_03	2 Peter 3	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Peter_03.md
+2_samuel_01	2 Samuel 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Samuel_01.md
+2_samuel_02	2 Samuel 2	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Samuel_02.md
+2_samuel_03	2 Samuel 3	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Samuel_03.md
+2_samuel_04	2 Samuel 4	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Samuel_04.md
+2_samuel_05	2 Samuel 5	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Samuel_05.md
+2_samuel_06	2 Samuel 6	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Samuel_06.md
+2_samuel_07	2 Samuel 7	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Samuel_07.md
+2_samuel_08	2 Samuel 8	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Samuel_08.md
+2_samuel_09	2 Samuel 9	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Samuel_09.md
+2_samuel_10	2 Samuel 10	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Samuel_10.md
+2_samuel_11	2 Samuel 11	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Samuel_11.md
+2_samuel_12	2 Samuel 12	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Samuel_12.md
+2_samuel_13	2 Samuel 13	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Samuel_13.md
+2_samuel_14	2 Samuel 14	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Samuel_14.md
+2_samuel_15	2 Samuel 15	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Samuel_15.md
+2_samuel_16	2 Samuel 16	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Samuel_16.md
+2_samuel_17	2 Samuel 17	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Samuel_17.md
+2_samuel_18	2 Samuel 18	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Samuel_18.md
+2_samuel_19	2 Samuel 19	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Samuel_19.md
+2_samuel_20	2 Samuel 20	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Samuel_20.md
+2_samuel_21	2 Samuel 21	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Samuel_21.md
+2_samuel_22	2 Samuel 22	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Samuel_22.md
+2_samuel_23	2 Samuel 23	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Samuel_23.md
+2_samuel_24	2 Samuel 24	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Samuel_24.md
+2_thessalonians_01	2 Thessalonians 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Thessalonians_01.md
+2_thessalonians_02	2 Thessalonians 2	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Thessalonians_02.md
+2_thessalonians_03	2 Thessalonians 3	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Thessalonians_03.md
+2_timothy_01	2 Timothy 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Timothy_01.md
+2_timothy_02	2 Timothy 2	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Timothy_02.md
+2_timothy_03	2 Timothy 3	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Timothy_03.md
+2_timothy_04	2 Timothy 4	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 2_Timothy_04.md
+3_john_01	3 John 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: 3_John_01.md
+acts_01	Acts 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Acts_01.md
+acts_02	Acts 2	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Acts_02.md
+acts_03	Acts 3	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Acts_03.md
+acts_04	Acts 4	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Acts_04.md
+acts_05	Acts 5	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Acts_05.md
+acts_06	Acts 6	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Acts_06.md
+acts_07	Acts 7	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Acts_07.md
+acts_08	Acts 8	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Acts_08.md
+acts_09	Acts 9	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Acts_09.md
+acts_10	Acts 10	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Acts_10.md
+acts_11	Acts 11	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Acts_11.md
+acts_12	Acts 12	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Acts_12.md
+acts_13	Acts 13	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Acts_13.md
+acts_14	Acts 14	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Acts_14.md
+acts_15	Acts 15	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Acts_15.md
+acts_16	Acts 16	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Acts_16.md
+acts_17	Acts 17	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Acts_17.md
+acts_18	Acts 18	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Acts_18.md
+acts_19	Acts 19	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Acts_19.md
+acts_20	Acts 20	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Acts_20.md
+acts_21	Acts 21	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Acts_21.md
+acts_22	Acts 22	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Acts_22.md
+acts_23	Acts 23	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Acts_23.md
+acts_24	Acts 24	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Acts_24.md
+acts_25	Acts 25	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Acts_25.md
+acts_26	Acts 26	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Acts_26.md
+acts_27	Acts 27	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Acts_27.md
+acts_28	Acts 28	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Acts_28.md
+colossians_01	Colossians 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Colossians_01.md
+colossians_02	Colossians 2	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Colossians_02.md
+colossians_03	Colossians 3	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Colossians_03.md
+colossians_04	Colossians 4	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Colossians_04.md
+daniel_01	Daniel 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Daniel_01.md
+daniel_02	Daniel 2	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Daniel_02.md
+daniel_03	Daniel 3	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Daniel_03.md
+daniel_04	Daniel 4	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Daniel_04.md
+daniel_05	Daniel 5	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Daniel_05.md
+daniel_06	Daniel 6	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Daniel_06.md
+daniel_07	Daniel 7	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Daniel_07.md
+daniel_08	Daniel 8	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Daniel_08.md
+daniel_09	Daniel 9	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Daniel_09.md
+daniel_10	Daniel 10	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Daniel_10.md
+daniel_11	Daniel 11	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Daniel_11.md
+daniel_12	Daniel 12	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Daniel_12.md
+deuteronomy_01	Deuteronomy 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Deuteronomy_01.md
+deuteronomy_02	Deuteronomy 2	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Deuteronomy_02.md
+deuteronomy_03	Deuteronomy 3	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Deuteronomy_03.md
+deuteronomy_04	Deuteronomy 4	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Deuteronomy_04.md
+deuteronomy_05	Deuteronomy 5	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Deuteronomy_05.md
+deuteronomy_06	Deuteronomy 6	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Deuteronomy_06.md
+deuteronomy_07	Deuteronomy 7	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Deuteronomy_07.md
+deuteronomy_08	Deuteronomy 8	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Deuteronomy_08.md
+deuteronomy_09	Deuteronomy 9	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Deuteronomy_09.md
+deuteronomy_10	Deuteronomy 10	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Deuteronomy_10.md
+deuteronomy_11	Deuteronomy 11	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Deuteronomy_11.md
+deuteronomy_12	Deuteronomy 12	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Deuteronomy_12.md
+deuteronomy_13	Deuteronomy 13	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Deuteronomy_13.md
+deuteronomy_14	Deuteronomy 14	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Deuteronomy_14.md
+deuteronomy_15	Deuteronomy 15	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Deuteronomy_15.md
+deuteronomy_16	Deuteronomy 16	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Deuteronomy_16.md
+deuteronomy_17	Deuteronomy 17	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Deuteronomy_17.md
+deuteronomy_18	Deuteronomy 18	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Deuteronomy_18.md
+deuteronomy_19	Deuteronomy 19	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Deuteronomy_19.md
+deuteronomy_20	Deuteronomy 20	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Deuteronomy_20.md
+deuteronomy_21	Deuteronomy 21	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Deuteronomy_21.md
+deuteronomy_22	Deuteronomy 22	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Deuteronomy_22.md
+deuteronomy_23	Deuteronomy 23	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Deuteronomy_23.md
+deuteronomy_24	Deuteronomy 24	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Deuteronomy_24.md
+deuteronomy_25	Deuteronomy 25	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Deuteronomy_25.md
+deuteronomy_26	Deuteronomy 26	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Deuteronomy_26.md
+deuteronomy_27	Deuteronomy 27	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Deuteronomy_27.md
+deuteronomy_28	Deuteronomy 28	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Deuteronomy_28.md
+deuteronomy_29	Deuteronomy 29	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Deuteronomy_29.md
+deuteronomy_30	Deuteronomy 30	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Deuteronomy_30.md
+deuteronomy_31	Deuteronomy 31	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Deuteronomy_31.md
+deuteronomy_32	Deuteronomy 32	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Deuteronomy_32.md
+deuteronomy_33	Deuteronomy 33	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Deuteronomy_33.md
+deuteronomy_34	Deuteronomy 34	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Deuteronomy_34.md
+ecclesiastes_01	Ecclesiastes 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ecclesiastes_01.md
+ecclesiastes_02	Ecclesiastes 2	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ecclesiastes_02.md
+ecclesiastes_03	Ecclesiastes 3	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ecclesiastes_03.md
+ecclesiastes_04	Ecclesiastes 4	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ecclesiastes_04.md
+ecclesiastes_05	Ecclesiastes 5	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ecclesiastes_05.md
+ecclesiastes_06	Ecclesiastes 6	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ecclesiastes_06.md
+ecclesiastes_07	Ecclesiastes 7	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ecclesiastes_07.md
+ecclesiastes_08	Ecclesiastes 8	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ecclesiastes_08.md
+ecclesiastes_09	Ecclesiastes 9	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ecclesiastes_09.md
+ecclesiastes_10	Ecclesiastes 10	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ecclesiastes_10.md
+ecclesiastes_11	Ecclesiastes 11	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ecclesiastes_11.md
+ecclesiastes_12	Ecclesiastes 12	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ecclesiastes_12.md
+ephesians_01	Ephesians 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ephesians_01.md
+ephesians_02	Ephesians 2	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ephesians_02.md
+ephesians_03	Ephesians 3	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ephesians_03.md
+ephesians_04	Ephesians 4	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ephesians_04.md
+ephesians_05	Ephesians 5	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ephesians_05.md
+ephesians_06	Ephesians 6	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ephesians_06.md
+esther_01	Esther 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Esther_01.md
+esther_02	Esther 2	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Esther_02.md
+esther_03	Esther 3	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Esther_03.md
+esther_04	Esther 4	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Esther_04.md
+esther_05	Esther 5	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Esther_05.md
+esther_06	Esther 6	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Esther_06.md
+esther_07	Esther 7	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Esther_07.md
+esther_08	Esther 8	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Esther_08.md
+esther_09	Esther 9	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Esther_09.md
+esther_10	Esther 10	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Esther_10.md
+exodus_01	Exodus 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Exodus_01.md
+exodus_02	Exodus 2	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Exodus_02.md
+exodus_03	Exodus 3	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Exodus_03.md
+exodus_04	Exodus 4	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Exodus_04.md
+exodus_05	Exodus 5	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Exodus_05.md
+exodus_06	Exodus 6	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Exodus_06.md
+exodus_07	Exodus 7	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Exodus_07.md
+exodus_08	Exodus 8	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Exodus_08.md
+exodus_09	Exodus 9	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Exodus_09.md
+exodus_10	Exodus 10	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Exodus_10.md
+exodus_11	Exodus 11	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Exodus_11.md
+exodus_12	Exodus 12	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Exodus_12.md
+exodus_13	Exodus 13	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Exodus_13.md
+exodus_14	Exodus 14	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Exodus_14.md
+exodus_15	Exodus 15	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Exodus_15.md
+exodus_16	Exodus 16	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Exodus_16.md
+exodus_17	Exodus 17	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Exodus_17.md
+exodus_18	Exodus 18	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Exodus_18.md
+exodus_19	Exodus 19	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Exodus_19.md
+exodus_20	Exodus 20	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Exodus_20.md
+exodus_21	Exodus 21	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Exodus_21.md
+exodus_22	Exodus 22	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Exodus_22.md
+exodus_23	Exodus 23	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Exodus_23.md
+exodus_24	Exodus 24	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Exodus_24.md
+exodus_25	Exodus 25	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Exodus_25.md
+exodus_26	Exodus 26	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Exodus_26.md
+exodus_27	Exodus 27	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Exodus_27.md
+exodus_28	Exodus 28	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Exodus_28.md
+exodus_29	Exodus 29	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Exodus_29.md
+exodus_30	Exodus 30	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Exodus_30.md
+exodus_31	Exodus 31	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Exodus_31.md
+exodus_32	Exodus 32	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Exodus_32.md
+exodus_33	Exodus 33	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Exodus_33.md
+exodus_34	Exodus 34	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Exodus_34.md
+exodus_35	Exodus 35	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Exodus_35.md
+exodus_36	Exodus 36	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Exodus_36.md
+exodus_37	Exodus 37	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Exodus_37.md
+exodus_38	Exodus 38	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Exodus_38.md
+exodus_39	Exodus 39	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Exodus_39.md
+exodus_40	Exodus 40	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Exodus_40.md
+ezekiel_01	Ezekiel 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_01.md
+ezekiel_02	Ezekiel 2	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_02.md
+ezekiel_03	Ezekiel 3	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_03.md
+ezekiel_04	Ezekiel 4	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_04.md
+ezekiel_05	Ezekiel 5	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_05.md
+ezekiel_06	Ezekiel 6	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_06.md
+ezekiel_07	Ezekiel 7	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_07.md
+ezekiel_08	Ezekiel 8	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_08.md
+ezekiel_09	Ezekiel 9	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_09.md
+ezekiel_10	Ezekiel 10	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_10.md
+ezekiel_11	Ezekiel 11	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_11.md
+ezekiel_12	Ezekiel 12	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_12.md
+ezekiel_13	Ezekiel 13	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_13.md
+ezekiel_14	Ezekiel 14	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_14.md
+ezekiel_15	Ezekiel 15	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_15.md
+ezekiel_16	Ezekiel 16	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_16.md
+ezekiel_17	Ezekiel 17	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_17.md
+ezekiel_18	Ezekiel 18	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_18.md
+ezekiel_19	Ezekiel 19	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_19.md
+ezekiel_20	Ezekiel 20	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_20.md
+ezekiel_21	Ezekiel 21	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_21.md
+ezekiel_22	Ezekiel 22	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_22.md
+ezekiel_23	Ezekiel 23	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_23.md
+ezekiel_24	Ezekiel 24	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_24.md
+ezekiel_25	Ezekiel 25	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_25.md
+ezekiel_26	Ezekiel 26	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_26.md
+ezekiel_27	Ezekiel 27	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_27.md
+ezekiel_28	Ezekiel 28	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_28.md
+ezekiel_29	Ezekiel 29	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_29.md
+ezekiel_30	Ezekiel 30	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_30.md
+ezekiel_31	Ezekiel 31	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_31.md
+ezekiel_32	Ezekiel 32	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_32.md
+ezekiel_33	Ezekiel 33	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_33.md
+ezekiel_34	Ezekiel 34	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_34.md
+ezekiel_35	Ezekiel 35	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_35.md
+ezekiel_36	Ezekiel 36	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_36.md
+ezekiel_37	Ezekiel 37	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_37.md
+ezekiel_38	Ezekiel 38	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_38.md
+ezekiel_39	Ezekiel 39	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_39.md
+ezekiel_40	Ezekiel 40	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_40.md
+ezekiel_41	Ezekiel 41	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_41.md
+ezekiel_42	Ezekiel 42	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_42.md
+ezekiel_43	Ezekiel 43	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_43.md
+ezekiel_44	Ezekiel 44	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_44.md
+ezekiel_45	Ezekiel 45	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_45.md
+ezekiel_46	Ezekiel 46	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_46.md
+ezekiel_47	Ezekiel 47	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_47.md
+ezekiel_48	Ezekiel 48	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ezekiel_48.md
+galatians_01	Galatians 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Galatians_01.md
+galatians_02	Galatians 2	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Galatians_02.md
+galatians_03	Galatians 3	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Galatians_03.md
+galatians_04	Galatians 4	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Galatians_04.md
+galatians_05	Galatians 5	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Galatians_05.md
+galatians_06	Galatians 6	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Galatians_06.md
+genesis_01	Genesis 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_01.md
+genesis_02	Genesis 2	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_02.md
+genesis_03	Genesis 3	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_03.md
+genesis_04	Genesis 4	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_04.md
+genesis_05	Genesis 5	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_05.md
+genesis_06	Genesis 6	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_06.md
+genesis_07	Genesis 7	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_07.md
+genesis_08	Genesis 8	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_08.md
+genesis_09	Genesis 9	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_09.md
+genesis_10	Genesis 10	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_10.md
+genesis_11	Genesis 11	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_11.md
+genesis_12	Genesis 12	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_12.md
+genesis_13	Genesis 13	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_13.md
+genesis_14	Genesis 14	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_14.md
+genesis_15	Genesis 15	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_15.md
+genesis_16	Genesis 16	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_16.md
+genesis_17	Genesis 17	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_17.md
+genesis_18	Genesis 18	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_18.md
+genesis_19	Genesis 19	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_19.md
+genesis_20	Genesis 20	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_20.md
+genesis_21	Genesis 21	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_21.md
+genesis_22	Genesis 22	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_22.md
+genesis_23	Genesis 23	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_23.md
+genesis_24	Genesis 24	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_24.md
+genesis_25	Genesis 25	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_25.md
+genesis_26	Genesis 26	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_26.md
+genesis_27	Genesis 27	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_27.md
+genesis_28	Genesis 28	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_28.md
+genesis_29	Genesis 29	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_29.md
+genesis_30	Genesis 30	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_30.md
+genesis_31	Genesis 31	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_31.md
+genesis_32	Genesis 32	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_32.md
+genesis_33	Genesis 33	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_33.md
+genesis_34	Genesis 34	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_34.md
+genesis_35	Genesis 35	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_35.md
+genesis_36	Genesis 36	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_36.md
+genesis_37	Genesis 37	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_37.md
+genesis_38	Genesis 38	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_38.md
+genesis_39	Genesis 39	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_39.md
+genesis_40	Genesis 40	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_40.md
+genesis_41	Genesis 41	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_41.md
+genesis_42	Genesis 42	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_42.md
+genesis_43	Genesis 43	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_43.md
+genesis_44	Genesis 44	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_44.md
+genesis_45	Genesis 45	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_45.md
+genesis_46	Genesis 46	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_46.md
+genesis_47	Genesis 47	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_47.md
+genesis_48	Genesis 48	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_48.md
+genesis_49	Genesis 49	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_49.md
+genesis_50	Genesis 50	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Genesis_50.md
+hebrews_01	Hebrews 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Hebrews_01.md
+hebrews_02	Hebrews 2	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Hebrews_02.md
+hebrews_03	Hebrews 3	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Hebrews_03.md
+hebrews_04	Hebrews 4	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Hebrews_04.md
+hebrews_05	Hebrews 5	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Hebrews_05.md
+hebrews_06	Hebrews 6	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Hebrews_06.md
+hebrews_07	Hebrews 7	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Hebrews_07.md
+hebrews_08	Hebrews 8	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Hebrews_08.md
+hebrews_09	Hebrews 9	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Hebrews_09.md
+hebrews_10	Hebrews 10	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Hebrews_10.md
+hebrews_11	Hebrews 11	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Hebrews_11.md
+hebrews_12	Hebrews 12	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Hebrews_12.md
+hebrews_13	Hebrews 13	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Hebrews_13.md
+isaiah_01	Isaiah 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_01.md
+isaiah_02	Isaiah 2	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_02.md
+isaiah_03	Isaiah 3	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_03.md
+isaiah_04	Isaiah 4	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_04.md
+isaiah_05	Isaiah 5	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_05.md
+isaiah_06	Isaiah 6	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_06.md
+isaiah_07	Isaiah 7	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_07.md
+isaiah_08	Isaiah 8	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_08.md
+isaiah_09	Isaiah 9	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_09.md
+isaiah_10	Isaiah 10	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_10.md
+isaiah_11	Isaiah 11	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_11.md
+isaiah_12	Isaiah 12	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_12.md
+isaiah_13	Isaiah 13	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_13.md
+isaiah_14	Isaiah 14	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_14.md
+isaiah_15	Isaiah 15	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_15.md
+isaiah_16	Isaiah 16	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_16.md
+isaiah_17	Isaiah 17	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_17.md
+isaiah_18	Isaiah 18	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_18.md
+isaiah_19	Isaiah 19	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_19.md
+isaiah_20	Isaiah 20	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_20.md
+isaiah_21	Isaiah 21	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_21.md
+isaiah_22	Isaiah 22	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_22.md
+isaiah_23	Isaiah 23	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_23.md
+isaiah_24	Isaiah 24	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_24.md
+isaiah_25	Isaiah 25	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_25.md
+isaiah_26	Isaiah 26	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_26.md
+isaiah_27	Isaiah 27	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_27.md
+isaiah_28	Isaiah 28	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_28.md
+isaiah_29	Isaiah 29	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_29.md
+isaiah_30	Isaiah 30	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_30.md
+isaiah_31	Isaiah 31	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_31.md
+isaiah_32	Isaiah 32	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_32.md
+isaiah_33	Isaiah 33	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_33.md
+isaiah_34	Isaiah 34	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_34.md
+isaiah_35	Isaiah 35	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_35.md
+isaiah_36	Isaiah 36	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_36.md
+isaiah_37	Isaiah 37	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_37.md
+isaiah_38	Isaiah 38	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_38.md
+isaiah_39	Isaiah 39	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_39.md
+isaiah_40	Isaiah 40	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_40.md
+isaiah_41	Isaiah 41	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_41.md
+isaiah_42	Isaiah 42	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_42.md
+isaiah_43	Isaiah 43	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_43.md
+isaiah_44	Isaiah 44	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_44.md
+isaiah_45	Isaiah 45	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_45.md
+isaiah_46	Isaiah 46	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_46.md
+isaiah_47	Isaiah 47	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_47.md
+isaiah_48	Isaiah 48	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_48.md
+isaiah_49	Isaiah 49	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_49.md
+isaiah_50	Isaiah 50	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_50.md
+isaiah_51	Isaiah 51	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_51.md
+isaiah_52	Isaiah 52	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_52.md
+isaiah_53	Isaiah 53	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_53.md
+isaiah_54	Isaiah 54	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_54.md
+isaiah_55	Isaiah 55	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_55.md
+isaiah_56	Isaiah 56	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_56.md
+isaiah_57	Isaiah 57	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_57.md
+isaiah_58	Isaiah 58	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_58.md
+isaiah_59	Isaiah 59	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_59.md
+isaiah_60	Isaiah 60	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_60.md
+isaiah_61	Isaiah 61	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_61.md
+isaiah_62	Isaiah 62	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_62.md
+isaiah_63	Isaiah 63	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_63.md
+isaiah_64	Isaiah 64	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_64.md
+isaiah_65	Isaiah 65	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_65.md
+isaiah_66	Isaiah 66	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Isaiah_66.md
+james_01	James 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: James_01.md
+james_02	James 2	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: James_02.md
+james_03	James 3	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: James_03.md
+james_04	James 4	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: James_04.md
+james_05	James 5	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: James_05.md
+jeremiah_01	Jeremiah 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_01.md
+jeremiah_02	Jeremiah 2	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_02.md
+jeremiah_03	Jeremiah 3	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_03.md
+jeremiah_04	Jeremiah 4	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_04.md
+jeremiah_05	Jeremiah 5	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_05.md
+jeremiah_06	Jeremiah 6	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_06.md
+jeremiah_07	Jeremiah 7	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_07.md
+jeremiah_08	Jeremiah 8	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_08.md
+jeremiah_09	Jeremiah 9	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_09.md
+jeremiah_10	Jeremiah 10	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_10.md
+jeremiah_11	Jeremiah 11	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_11.md
+jeremiah_12	Jeremiah 12	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_12.md
+jeremiah_13	Jeremiah 13	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_13.md
+jeremiah_14	Jeremiah 14	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_14.md
+jeremiah_15	Jeremiah 15	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_15.md
+jeremiah_16	Jeremiah 16	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_16.md
+jeremiah_17	Jeremiah 17	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_17.md
+jeremiah_18	Jeremiah 18	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_18.md
+jeremiah_19	Jeremiah 19	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_19.md
+jeremiah_20	Jeremiah 20	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_20.md
+jeremiah_21	Jeremiah 21	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_21.md
+jeremiah_22	Jeremiah 22	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_22.md
+jeremiah_23	Jeremiah 23	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_23.md
+jeremiah_24	Jeremiah 24	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_24.md
+jeremiah_25	Jeremiah 25	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_25.md
+jeremiah_26	Jeremiah 26	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_26.md
+jeremiah_27	Jeremiah 27	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_27.md
+jeremiah_28	Jeremiah 28	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_28.md
+jeremiah_29	Jeremiah 29	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_29.md
+jeremiah_30	Jeremiah 30	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_30.md
+jeremiah_31	Jeremiah 31	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_31.md
+jeremiah_32	Jeremiah 32	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_32.md
+jeremiah_33	Jeremiah 33	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_33.md
+jeremiah_34	Jeremiah 34	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_34.md
+jeremiah_35	Jeremiah 35	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_35.md
+jeremiah_36	Jeremiah 36	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_36.md
+jeremiah_37	Jeremiah 37	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_37.md
+jeremiah_38	Jeremiah 38	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_38.md
+jeremiah_39	Jeremiah 39	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_39.md
+jeremiah_40	Jeremiah 40	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_40.md
+jeremiah_41	Jeremiah 41	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_41.md
+jeremiah_42	Jeremiah 42	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_42.md
+jeremiah_43	Jeremiah 43	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_43.md
+jeremiah_44	Jeremiah 44	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_44.md
+jeremiah_45	Jeremiah 45	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_45.md
+jeremiah_46	Jeremiah 46	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_46.md
+jeremiah_47	Jeremiah 47	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_47.md
+jeremiah_48	Jeremiah 48	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_48.md
+jeremiah_49	Jeremiah 49	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_49.md
+jeremiah_50	Jeremiah 50	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_50.md
+jeremiah_51	Jeremiah 51	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_51.md
+jeremiah_52	Jeremiah 52	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jeremiah_52.md
+job_01	Job 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Job_01.md
+job_02	Job 2	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Job_02.md
+job_03	Job 3	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Job_03.md
+job_04	Job 4	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Job_04.md
+job_05	Job 5	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Job_05.md
+job_06	Job 6	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Job_06.md
+job_07	Job 7	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Job_07.md
+job_08	Job 8	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Job_08.md
+job_09	Job 9	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Job_09.md
+job_10	Job 10	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Job_10.md
+job_11	Job 11	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Job_11.md
+job_12	Job 12	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Job_12.md
+job_13	Job 13	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Job_13.md
+job_14	Job 14	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Job_14.md
+job_15	Job 15	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Job_15.md
+job_16	Job 16	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Job_16.md
+job_17	Job 17	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Job_17.md
+job_18	Job 18	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Job_18.md
+job_19	Job 19	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Job_19.md
+job_20	Job 20	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Job_20.md
+job_21	Job 21	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Job_21.md
+job_22	Job 22	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Job_22.md
+job_23	Job 23	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Job_23.md
+job_24	Job 24	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Job_24.md
+job_25	Job 25	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Job_25.md
+job_26	Job 26	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Job_26.md
+job_27	Job 27	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Job_27.md
+job_28	Job 28	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Job_28.md
+job_29	Job 29	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Job_29.md
+job_30	Job 30	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Job_30.md
+job_31	Job 31	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Job_31.md
+job_32	Job 32	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Job_32.md
+job_33	Job 33	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Job_33.md
+job_34	Job 34	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Job_34.md
+job_35	Job 35	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Job_35.md
+job_36	Job 36	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Job_36.md
+job_37	Job 37	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Job_37.md
+job_38	Job 38	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Job_38.md
+job_39	Job 39	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Job_39.md
+job_40	Job 40	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Job_40.md
+job_41	Job 41	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Job_41.md
+job_42	Job 42	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Job_42.md
+john_01	John 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: John_01.md
+john_02	John 2	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: John_02.md
+john_03	John 3	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: John_03.md
+john_04	John 4	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: John_04.md
+john_05	John 5	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: John_05.md
+john_06	John 6	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: John_06.md
+john_07	John 7	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: John_07.md
+john_08	John 8	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: John_08.md
+john_09	John 9	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: John_09.md
+john_10	John 10	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: John_10.md
+john_11	John 11	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: John_11.md
+john_12	John 12	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: John_12.md
+john_13	John 13	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: John_13.md
+john_14	John 14	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: John_14.md
+john_15	John 15	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: John_15.md
+john_16	John 16	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: John_16.md
+john_17	John 17	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: John_17.md
+john_18	John 18	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: John_18.md
+john_19	John 19	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: John_19.md
+john_20	John 20	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: John_20.md
+john_21	John 21	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: John_21.md
+joshua_01	Joshua 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Joshua_01.md
+joshua_02	Joshua 2	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Joshua_02.md
+joshua_03	Joshua 3	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Joshua_03.md
+joshua_04	Joshua 4	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Joshua_04.md
+joshua_05	Joshua 5	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Joshua_05.md
+joshua_06	Joshua 6	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Joshua_06.md
+joshua_07	Joshua 7	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Joshua_07.md
+joshua_08	Joshua 8	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Joshua_08.md
+joshua_09	Joshua 9	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Joshua_09.md
+joshua_10	Joshua 10	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Joshua_10.md
+joshua_11	Joshua 11	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Joshua_11.md
+joshua_12	Joshua 12	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Joshua_12.md
+joshua_13	Joshua 13	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Joshua_13.md
+joshua_14	Joshua 14	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Joshua_14.md
+joshua_15	Joshua 15	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Joshua_15.md
+joshua_16	Joshua 16	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Joshua_16.md
+joshua_17	Joshua 17	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Joshua_17.md
+joshua_18	Joshua 18	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Joshua_18.md
+joshua_19	Joshua 19	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Joshua_19.md
+joshua_20	Joshua 20	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Joshua_20.md
+joshua_21	Joshua 21	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Joshua_21.md
+joshua_22	Joshua 22	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Joshua_22.md
+joshua_23	Joshua 23	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Joshua_23.md
+joshua_24	Joshua 24	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Joshua_24.md
+jude_01	Jude 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Jude_01.md
+judges_01	Judges 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Judges_01.md
+judges_02	Judges 2	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Judges_02.md
+judges_03	Judges 3	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Judges_03.md
+judges_04	Judges 4	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Judges_04.md
+judges_05	Judges 5	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Judges_05.md
+judges_06	Judges 6	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Judges_06.md
+judges_07	Judges 7	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Judges_07.md
+judges_08	Judges 8	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Judges_08.md
+judges_09	Judges 9	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Judges_09.md
+judges_10	Judges 10	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Judges_10.md
+judges_11	Judges 11	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Judges_11.md
+judges_12	Judges 12	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Judges_12.md
+judges_13	Judges 13	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Judges_13.md
+judges_14	Judges 14	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Judges_14.md
+judges_15	Judges 15	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Judges_15.md
+judges_16	Judges 16	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Judges_16.md
+judges_17	Judges 17	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Judges_17.md
+judges_18	Judges 18	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Judges_18.md
+judges_19	Judges 19	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Judges_19.md
+judges_20	Judges 20	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Judges_20.md
+judges_21	Judges 21	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Judges_21.md
+lamentations_01	Lamentations 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Lamentations_01.md
+lamentations_02	Lamentations 2	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Lamentations_02.md
+lamentations_03	Lamentations 3	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Lamentations_03.md
+lamentations_04	Lamentations 4	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Lamentations_04.md
+lamentations_05	Lamentations 5	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Lamentations_05.md
+luke_01	Luke 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Luke_01.md
+luke_02	Luke 2	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Luke_02.md
+luke_03	Luke 3	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Luke_03.md
+luke_04	Luke 4	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Luke_04.md
+luke_05	Luke 5	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Luke_05.md
+luke_06	Luke 6	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Luke_06.md
+luke_07	Luke 7	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Luke_07.md
+luke_08	Luke 8	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Luke_08.md
+luke_09	Luke 9	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Luke_09.md
+luke_10	Luke 10	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Luke_10.md
+luke_11	Luke 11	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Luke_11.md
+luke_12	Luke 12	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Luke_12.md
+luke_13	Luke 13	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Luke_13.md
+luke_14	Luke 14	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Luke_14.md
+luke_15	Luke 15	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Luke_15.md
+luke_16	Luke 16	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Luke_16.md
+luke_17	Luke 17	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Luke_17.md
+luke_18	Luke 18	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Luke_18.md
+luke_19	Luke 19	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Luke_19.md
+luke_20	Luke 20	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Luke_20.md
+luke_21	Luke 21	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Luke_21.md
+luke_22	Luke 22	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Luke_22.md
+luke_23	Luke 23	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Luke_23.md
+luke_24	Luke 24	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Luke_24.md
+mark_01	Mark 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Mark_01.md
+mark_02	Mark 2	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Mark_02.md
+mark_03	Mark 3	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Mark_03.md
+mark_04	Mark 4	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Mark_04.md
+mark_05	Mark 5	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Mark_05.md
+mark_06	Mark 6	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Mark_06.md
+mark_07	Mark 7	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Mark_07.md
+mark_08	Mark 8	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Mark_08.md
+mark_09	Mark 9	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Mark_09.md
+mark_10	Mark 10	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Mark_10.md
+mark_11	Mark 11	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Mark_11.md
+mark_12	Mark 12	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Mark_12.md
+mark_13	Mark 13	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Mark_13.md
+mark_14	Mark 14	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Mark_14.md
+mark_15	Mark 15	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Mark_15.md
+mark_16	Mark 16	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Mark_16.md
+matthew_01	Matthew 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Matthew_01.md
+matthew_02	Matthew 2	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Matthew_02.md
+matthew_03	Matthew 3	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Matthew_03.md
+matthew_04	Matthew 4	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Matthew_04.md
+matthew_05	Matthew 5	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Matthew_05.md
+matthew_06	Matthew 6	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Matthew_06.md
+matthew_07	Matthew 7	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Matthew_07.md
+matthew_08	Matthew 8	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Matthew_08.md
+matthew_09	Matthew 9	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Matthew_09.md
+matthew_10	Matthew 10	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Matthew_10.md
+matthew_11	Matthew 11	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Matthew_11.md
+matthew_12	Matthew 12	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Matthew_12.md
+matthew_13	Matthew 13	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Matthew_13.md
+matthew_14	Matthew 14	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Matthew_14.md
+matthew_15	Matthew 15	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Matthew_15.md
+matthew_16	Matthew 16	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Matthew_16.md
+matthew_17	Matthew 17	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Matthew_17.md
+matthew_18	Matthew 18	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Matthew_18.md
+matthew_19	Matthew 19	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Matthew_19.md
+matthew_20	Matthew 20	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Matthew_20.md
+matthew_21	Matthew 21	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Matthew_21.md
+matthew_22	Matthew 22	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Matthew_22.md
+matthew_23	Matthew 23	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Matthew_23.md
+matthew_24	Matthew 24	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Matthew_24.md
+matthew_25	Matthew 25	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Matthew_25.md
+matthew_26	Matthew 26	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Matthew_26.md
+matthew_27	Matthew 27	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Matthew_27.md
+matthew_28	Matthew 28	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Matthew_28.md
+philemon_01	Philemon 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Philemon_01.md
+philippians_01	Philippians 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Philippians_01.md
+philippians_02	Philippians 2	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Philippians_02.md
+philippians_03	Philippians 3	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Philippians_03.md
+philippians_04	Philippians 4	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Philippians_04.md
+proverbs_01	Proverbs 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Proverbs_01.md
+proverbs_02	Proverbs 2	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Proverbs_02.md
+proverbs_03	Proverbs 3	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Proverbs_03.md
+proverbs_04	Proverbs 4	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Proverbs_04.md
+proverbs_05	Proverbs 5	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Proverbs_05.md
+proverbs_06	Proverbs 6	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Proverbs_06.md
+proverbs_07	Proverbs 7	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Proverbs_07.md
+proverbs_08	Proverbs 8	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Proverbs_08.md
+proverbs_09	Proverbs 9	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Proverbs_09.md
+proverbs_10	Proverbs 10	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Proverbs_10.md
+proverbs_11	Proverbs 11	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Proverbs_11.md
+proverbs_12	Proverbs 12	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Proverbs_12.md
+proverbs_13	Proverbs 13	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Proverbs_13.md
+proverbs_14	Proverbs 14	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Proverbs_14.md
+proverbs_15	Proverbs 15	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Proverbs_15.md
+proverbs_16	Proverbs 16	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Proverbs_16.md
+proverbs_17	Proverbs 17	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Proverbs_17.md
+proverbs_18	Proverbs 18	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Proverbs_18.md
+proverbs_19	Proverbs 19	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Proverbs_19.md
+proverbs_20	Proverbs 20	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Proverbs_20.md
+proverbs_21	Proverbs 21	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Proverbs_21.md
+proverbs_22	Proverbs 22	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Proverbs_22.md
+proverbs_23	Proverbs 23	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Proverbs_23.md
+proverbs_24	Proverbs 24	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Proverbs_24.md
+proverbs_25	Proverbs 25	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Proverbs_25.md
+proverbs_26	Proverbs 26	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Proverbs_26.md
+proverbs_27	Proverbs 27	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Proverbs_27.md
+proverbs_28	Proverbs 28	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Proverbs_28.md
+proverbs_29	Proverbs 29	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Proverbs_29.md
+proverbs_30	Proverbs 30	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Proverbs_30.md
+proverbs_31	Proverbs 31	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Proverbs_31.md
+psalms_01	Psalms 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_01.md
+psalms_02	Psalms 2	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_02.md
+psalms_03	Psalms 3	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_03.md
+psalms_04	Psalms 4	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_04.md
+psalms_05	Psalms 5	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_05.md
+psalms_06	Psalms 6	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_06.md
+psalms_07	Psalms 7	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_07.md
+psalms_08	Psalms 8	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_08.md
+psalms_09	Psalms 9	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_09.md
+psalms_10	Psalms 10	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_10.md
+psalms_100	Psalms 100	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_100.md
+psalms_101	Psalms 101	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_101.md
+psalms_102	Psalms 102	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_102.md
+psalms_103	Psalms 103	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_103.md
+psalms_104	Psalms 104	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_104.md
+psalms_105	Psalms 105	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_105.md
+psalms_106	Psalms 106	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_106.md
+psalms_107	Psalms 107	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_107.md
+psalms_108	Psalms 108	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_108.md
+psalms_109	Psalms 109	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_109.md
+psalms_11	Psalms 11	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_11.md
+psalms_110	Psalms 110	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_110.md
+psalms_111	Psalms 111	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_111.md
+psalms_112	Psalms 112	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_112.md
+psalms_113	Psalms 113	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_113.md
+psalms_114	Psalms 114	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_114.md
+psalms_115	Psalms 115	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_115.md
+psalms_116	Psalms 116	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_116.md
+psalms_117	Psalms 117	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_117.md
+psalms_118	Psalms 118	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_118.md
+psalms_119	Psalms 119	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_119.md
+psalms_12	Psalms 12	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_12.md
+psalms_120	Psalms 120	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_120.md
+psalms_121	Psalms 121	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_121.md
+psalms_122	Psalms 122	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_122.md
+psalms_123	Psalms 123	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_123.md
+psalms_124	Psalms 124	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_124.md
+psalms_125	Psalms 125	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_125.md
+psalms_126	Psalms 126	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_126.md
+psalms_127	Psalms 127	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_127.md
+psalms_128	Psalms 128	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_128.md
+psalms_129	Psalms 129	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_129.md
+psalms_13	Psalms 13	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_13.md
+psalms_130	Psalms 130	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_130.md
+psalms_131	Psalms 131	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_131.md
+psalms_132	Psalms 132	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_132.md
+psalms_133	Psalms 133	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_133.md
+psalms_134	Psalms 134	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_134.md
+psalms_135	Psalms 135	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_135.md
+psalms_136	Psalms 136	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_136.md
+psalms_137	Psalms 137	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_137.md
+psalms_138	Psalms 138	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_138.md
+psalms_139	Psalms 139	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_139.md
+psalms_14	Psalms 14	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_14.md
+psalms_140	Psalms 140	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_140.md
+psalms_141	Psalms 141	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_141.md
+psalms_142	Psalms 142	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_142.md
+psalms_143	Psalms 143	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_143.md
+psalms_144	Psalms 144	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_144.md
+psalms_145	Psalms 145	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_145.md
+psalms_146	Psalms 146	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_146.md
+psalms_147	Psalms 147	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_147.md
+psalms_148	Psalms 148	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_148.md
+psalms_149	Psalms 149	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_149.md
+psalms_15	Psalms 15	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_15.md
+psalms_150	Psalms 150	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_150.md
+psalms_16	Psalms 16	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_16.md
+psalms_17	Psalms 17	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_17.md
+psalms_18	Psalms 18	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_18.md
+psalms_19	Psalms 19	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_19.md
+psalms_20	Psalms 20	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_20.md
+psalms_21	Psalms 21	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_21.md
+psalms_22	Psalms 22	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_22.md
+psalms_23	Psalms 23	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_23.md
+psalms_24	Psalms 24	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_24.md
+psalms_25	Psalms 25	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_25.md
+psalms_26	Psalms 26	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_26.md
+psalms_27	Psalms 27	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_27.md
+psalms_28	Psalms 28	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_28.md
+psalms_29	Psalms 29	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_29.md
+psalms_30	Psalms 30	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_30.md
+psalms_31	Psalms 31	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_31.md
+psalms_32	Psalms 32	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_32.md
+psalms_33	Psalms 33	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_33.md
+psalms_34	Psalms 34	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_34.md
+psalms_35	Psalms 35	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_35.md
+psalms_36	Psalms 36	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_36.md
+psalms_37	Psalms 37	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_37.md
+psalms_38	Psalms 38	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_38.md
+psalms_39	Psalms 39	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_39.md
+psalms_40	Psalms 40	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_40.md
+psalms_41	Psalms 41	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_41.md
+psalms_42	Psalms 42	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_42.md
+psalms_43	Psalms 43	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_43.md
+psalms_44	Psalms 44	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_44.md
+psalms_45	Psalms 45	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_45.md
+psalms_46	Psalms 46	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_46.md
+psalms_47	Psalms 47	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_47.md
+psalms_48	Psalms 48	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_48.md
+psalms_49	Psalms 49	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_49.md
+psalms_50	Psalms 50	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_50.md
+psalms_51	Psalms 51	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_51.md
+psalms_52	Psalms 52	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_52.md
+psalms_53	Psalms 53	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_53.md
+psalms_54	Psalms 54	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_54.md
+psalms_55	Psalms 55	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_55.md
+psalms_56	Psalms 56	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_56.md
+psalms_57	Psalms 57	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_57.md
+psalms_58	Psalms 58	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_58.md
+psalms_59	Psalms 59	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_59.md
+psalms_60	Psalms 60	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_60.md
+psalms_61	Psalms 61	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_61.md
+psalms_62	Psalms 62	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_62.md
+psalms_63	Psalms 63	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_63.md
+psalms_64	Psalms 64	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_64.md
+psalms_65	Psalms 65	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_65.md
+psalms_66	Psalms 66	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_66.md
+psalms_67	Psalms 67	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_67.md
+psalms_68	Psalms 68	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_68.md
+psalms_69	Psalms 69	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_69.md
+psalms_70	Psalms 70	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_70.md
+psalms_71	Psalms 71	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_71.md
+psalms_72	Psalms 72	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_72.md
+psalms_73	Psalms 73	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_73.md
+psalms_74	Psalms 74	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_74.md
+psalms_75	Psalms 75	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_75.md
+psalms_76	Psalms 76	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_76.md
+psalms_77	Psalms 77	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_77.md
+psalms_78	Psalms 78	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_78.md
+psalms_79	Psalms 79	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_79.md
+psalms_80	Psalms 80	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_80.md
+psalms_81	Psalms 81	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_81.md
+psalms_82	Psalms 82	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_82.md
+psalms_83	Psalms 83	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_83.md
+psalms_84	Psalms 84	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_84.md
+psalms_85	Psalms 85	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_85.md
+psalms_86	Psalms 86	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_86.md
+psalms_87	Psalms 87	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_87.md
+psalms_88	Psalms 88	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_88.md
+psalms_89	Psalms 89	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_89.md
+psalms_90	Psalms 90	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_90.md
+psalms_91	Psalms 91	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_91.md
+psalms_92	Psalms 92	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_92.md
+psalms_93	Psalms 93	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_93.md
+psalms_94	Psalms 94	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_94.md
+psalms_95	Psalms 95	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_95.md
+psalms_96	Psalms 96	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_96.md
+psalms_97	Psalms 97	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_97.md
+psalms_98	Psalms 98	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_98.md
+psalms_99	Psalms 99	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Psalms_99.md
+revelation_01	Revelation 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Revelation_01.md
+revelation_02	Revelation 2	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Revelation_02.md
+revelation_03	Revelation 3	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Revelation_03.md
+revelation_04	Revelation 4	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Revelation_04.md
+revelation_05	Revelation 5	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Revelation_05.md
+revelation_06	Revelation 6	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Revelation_06.md
+revelation_07	Revelation 7	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Revelation_07.md
+revelation_08	Revelation 8	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Revelation_08.md
+revelation_09	Revelation 9	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Revelation_09.md
+revelation_10	Revelation 10	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Revelation_10.md
+revelation_11	Revelation 11	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Revelation_11.md
+revelation_12	Revelation 12	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Revelation_12.md
+revelation_13	Revelation 13	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Revelation_13.md
+revelation_14	Revelation 14	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Revelation_14.md
+revelation_15	Revelation 15	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Revelation_15.md
+revelation_16	Revelation 16	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Revelation_16.md
+revelation_17	Revelation 17	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Revelation_17.md
+revelation_18	Revelation 18	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Revelation_18.md
+revelation_19	Revelation 19	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Revelation_19.md
+revelation_20	Revelation 20	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Revelation_20.md
+revelation_21	Revelation 21	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Revelation_21.md
+revelation_22	Revelation 22	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Revelation_22.md
+romans_01	Romans 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Romans_01.md
+romans_02	Romans 2	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Romans_02.md
+romans_03	Romans 3	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Romans_03.md
+romans_04	Romans 4	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Romans_04.md
+romans_05	Romans 5	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Romans_05.md
+romans_06	Romans 6	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Romans_06.md
+romans_07	Romans 7	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Romans_07.md
+romans_08	Romans 8	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Romans_08.md
+romans_09	Romans 9	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Romans_09.md
+romans_10	Romans 10	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Romans_10.md
+romans_11	Romans 11	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Romans_11.md
+romans_12	Romans 12	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Romans_12.md
+romans_13	Romans 13	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Romans_13.md
+romans_14	Romans 14	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Romans_14.md
+romans_15	Romans 15	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Romans_15.md
+romans_16	Romans 16	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Romans_16.md
+ruth_01	Ruth 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ruth_01.md
+ruth_02	Ruth 2	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ruth_02.md
+ruth_03	Ruth 3	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ruth_03.md
+ruth_04	Ruth 4	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Ruth_04.md
+song_of_solomon_01	Song of Solomon 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Song_of_Solomon_01.md
+song_of_solomon_02	Song of Solomon 2	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Song_of_Solomon_02.md
+song_of_solomon_03	Song of Solomon 3	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Song_of_Solomon_03.md
+song_of_solomon_04	Song of Solomon 4	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Song_of_Solomon_04.md
+song_of_solomon_05	Song of Solomon 5	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Song_of_Solomon_05.md
+song_of_solomon_06	Song of Solomon 6	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Song_of_Solomon_06.md
+song_of_solomon_07	Song of Solomon 7	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Song_of_Solomon_07.md
+song_of_solomon_08	Song of Solomon 8	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Song_of_Solomon_08.md
+titus_01	Titus 1	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Titus_01.md
+titus_02	Titus 2	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Titus_02.md
+titus_03	Titus 3	https://raw.githubusercontent.com/javascripture/javascripture/gh-pages/bibles/KJV.json	public-domain	file: Titus_03.md

@@ -81,3 +81,43 @@ What would you do next, and how would you find out whether it matters?
 Name the file, the query or the document where someone could look.
 
 TODO: your answer to prompt 5.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+One document per chapter, with the reference written inline on every verse (`Isaiah 5:10 And ten acres...`), so every chunk carries book, chapter and verse.
+
+https://guides.library.cornell.edu/copyright/publicdomain
+https://www.gutenberg.org/ebooks/10

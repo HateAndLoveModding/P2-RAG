@@ -21,3 +21,7 @@ Thumbs.db
 .idea/
 .vscode/
 *.swp
+
+# The raw KJV download and the chapter files the script makes from it; the corpus is corpora/own/docs/
+p2-raw/KJV.json
+p2-raw/kjv-chapters/
