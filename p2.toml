@@ -24,6 +24,12 @@ tokenizer = "codes"
 k1 = 0.9
 b = 0.4
 
+[hybrid]
+# The k of reciprocal rank fusion: each document scores the sum of 1 / (rrf_k + rank).
+# A smaller value lets a document that one system ranks near the top count for more.
+# 10 was chosen on the shared practice queries (60, 20 and 10 tried); not the same as k in [run].
+rrf_k = 10
+
 [answer]
 # How many chunks `p2 answer` sends to Claude with each question.
 top = 5

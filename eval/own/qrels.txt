@@ -2,3 +2,21 @@
 # rel is 1 for a relevant document, unless EVAL.md declares graded labels; every query needs at least one relevant document.
 # 598E: commit your filled-in PREREG.md before the first judgment line goes into this file.
 # Lines that start with # are comments.
+h01	0	daniel_02	1
+h02	0	matthew_06	1
+h02	0	luke_12	1
+h03	0	exodus_21	1
+h03	0	ephesians_06	1
+h03	0	colossians_03	1
+h04	0	psalms_14	1
+h04	0	psalms_53	1
+h05	0	job_31	1
+h06	0	proverbs_22	1
+h07	0	acts_02	1
+h07	0	acts_08	1
+h07	0	john_01	1
+h07	0	1_peter_03	1
+h08	0	isaiah_05	1
+h09	0	proverbs_06	1
+h10	0	hebrews_12	1
+h10	0	proverbs_03	1

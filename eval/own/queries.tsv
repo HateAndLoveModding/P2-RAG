@@ -2,3 +2,13 @@
 # origin is hand when you wrote the query yourself and claude when a model drafted it; at least 10 must be hand.
 # class is a word you choose, for example identifier, paraphrase or mixed as in the shared sets; scores are reported per class.
 # Lines that start with # are comments, so delete these lines or keep them, as you like.
+h01	reference	What does Daniel 2:28 say?	hand
+h02	quote	Consider the lilies of the field	hand
+h03	topic	Does the Bible endorse or condone slavery?	hand
+h04	reference	The Bible says that there is no God in Psalm 14.	hand
+h05	reference	Where exactly in Job does it talk about why he can't gaze at a virgin?	hand
+h06	quote	Raise a child in the way they ought to go so they won't stray from it	hand
+h07	topic	Baptism	hand
+h08	quote	Vineyard on fertile hill	hand
+h09	topic	Based on the context and other passages, what are haughty eyes?	hand
+h10	topic	What does it mean that the Lord disciplines his children?	hand
