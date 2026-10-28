@@ -463,6 +463,8 @@ _No stretch runs yet (stretch option 5): `uv run p2 run --corpus own --queries e
 
 Write the five things here.
 
+I am going to experiment with the chunk size to see if a different chunk size would produce better results. My hypothesis is that the chunk size will not make a ton of difference but I suspect a slight drop in MRR scores on chunk sizes of 100, 150, and 350. I suspect a chunk size of 200 to be about the same but I suspect a chunk size of 250 to have a slight increase of 0.01-.0.02. 
+
 ---
 
 ## 9. 598E only - repeats and the pre-registered claim
