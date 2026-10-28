@@ -27,6 +27,8 @@ For each of `dense`, `hybrid` and `rerank`, one or two sentences: the embedding 
 
 TODO: describe your three systems.
 
+
+
 ### Practice queries (20)
 
 Scores per system.
@@ -139,9 +141,7 @@ What is it, where did it come from, how many documents and how many megabytes, a
 Name the one or two documents you were least sure about and what you decided.
 Say which of the allowed sources in the brief it comes from.
 
-TODO: describe your corpus and its license basis.
-
-My corpus is the King James Verion of the Bible. I sourced a JSON file of it from GitHub (https://github.com/javascripture/javascripture/tree/gh-pages). It has 971 documents (one for each chapter) totaling 3.7MB. The KJV Bible has a public domain license
+My corpus is the King James Verion of the Bible. I sourced a JSON file of it from GitHub (https://github.com/javascripture/javascripture/tree/gh-pages). It has 971 documents (one for each chapter) totaling 3.9MB. The KJV Bible has a public domain license. I could not fit the entire KJV Bible though because it is more than 1 million tokens. I decided to keep the entire new testament and just cut a few books from the old testament. So, the corpus has Genesis, Exodus, Deuteronomy, Joshua through 2 Kings, Esther, Job through Daniel, and the whole New Testament. The KJV was published in 1611 and so the US copyright has run out and so it falls in the US public-domain books category of allowed sources. Though in the UK, it is still under the Crown patent. I was a little unsure about Psalms 117 because there was a message saying that it was very short, but I kept it as I originally had it because that is actually how should the Psalm is. Originally I was going to use the ESV Bible because that is my go to translation but Crossway holds a copyright for it.
 
 ### The gold set
 
@@ -152,13 +152,15 @@ Your labels are binary (`rel` 1) unless you say otherwise: if you use graded lab
 
 I wrote 10 queries by hand based on things I might want to look up. I had claude write 20 queries. I used topic, reference, and quote classes. I felt like those are the classes of queries I would actually use in my day to day life. For example, I often was to look up a Bible verse given the reference. So I want to just be able to input the reference and get the Bible verse out. The topic class is used for more general things like finding out where in the Bible a story or passages on a specific topic are. The quote query is used for finding where a specific verse is found in the Bible based on a rough paraphrase of the verse from memory. 
 
-Relevant for a reference passage means that it returns the chunk with the exact verse referenced. For example, "What does Daniel 2:28 say?" should return whatever chunk has Daniel 2:28 in it. The verse does not have to be specified but the RAG should still return the exact verse alluded to. For example, "The Bible says that there is no God in Psalm 14." should return whatever chunk has Psalm 14:1 in it. The chapter does not even have to be specified but the RAG should still return the exact verse alluded to. For example, "Where exactly in Job does it talk about why he can't gaze at a virgin?" should return Job 31:1.
+Relevant for a reference passage means that it returns the chapter with the exact verse referenced. For example, "What does Daniel 2:28 say?" should return whatever chapter has Daniel 2:28 in it. The verse does not have to be specified but the RAG should still return the exact verse alluded to. For example, "The Bible says that there is no God in Psalm 14." should return whatever chapter has Psalm 14:1 in it. The chapter does not even have to be specified but the RAG should still return the exact verse alluded to. For example, "Where exactly in Job does it talk about why he can't gaze at a virgin?" should return Job 31:1.
 
-Relevant for a quote passage also means that the RAG should return the chunk with the exact verse alluded to. The difference between a "reference" and a "quote" query is that a quote query does not give any book or chapter "hints" to the RAG.
+Relevant for a quote passage also means that the RAG should return the chapter with the exact verse alluded to. The difference between a "reference" and a "quote" query is that a quote query does not give any book or chapter "hints" to the RAG.
 
 Relevant for a topic passage means that the RAG should return a wider set of passages related to some topic. For example, "Baptism" should return passages all throughout the Bible about people getting baptized either physically or spiritually. Possible passages include Acts 2, Acts 8, John 1, and 1 Peter 3. 
 
-I already had an idea of what the correct passage should be for my own queries that I wrote and some of the ones that Claude wrote. I also did a few Google searches if I didn't know where the correct passage was and then I read that specific document to make sure that I thought the document answered the query. I at least skimmed each document that I deemed relevant. 
+I already had an idea of what the correct passage should be for my own queries that I wrote and some of the ones that Claude wrote. I also did a few Google searches if I didn't know where the correct passage was and then I read that specific document to make sure that I thought the document answered the query. I at least skimmed each document that I deemed relevant. The labels are binary. 
+
+h02, h04, and c09 have two relevant chapters defined because they are nearly identical passages or phrases in the Bible. c17 has two relevant chapters because there is a new testament reference to the passage in the old testament. The story in Esther is partially split across two chapters which is why both are relevant. I did not look at the relevant passages that claude defined for the test queries that Claude wrote. I wrote them first and then had Claude evaluate the set and Claude recognized a typo, a reference to a book not in the corpus, the continuation of the story in the next chapter, and a very similar passage later in the book. I read each chapter before changing the set. 
 
 ---
 
@@ -280,8 +282,6 @@ Which differences are distinguishable and which are not, at your gold-set size?
 Do the `hand` queries and the `claude` queries tell the same story?
 Did your prediction in `DECISIONS.md` prompt 1 hold?
 
-TODO: write what your own-corpus intervals let you claim.
-
 The hybrid and rerank recall is not much higher than bm25 but the biggest jump was the rerank MRR score. That shows that the retrievers are returning the right information but the standard hybrid combining metric is not actually helping. Having the agent though rank the documents does make a big difference because Claude actually has some logic and not just a deterministic math weight. 
 
 No the hand and claude queries do not tell the same story. The Claude queries were higher in every evaluation metric by what I would say is a significant margin. 
@@ -339,9 +339,15 @@ What did you change, what happened, and does the interval support the claim you 
 If the result is not distinguishable, say what size of effect your gold set could have seen.
 Read the queries at the top of each list in the second table, and say whether your change explains them.
 
-TODO: write the ablation: the one change, the hypothesis, the result and the claim.
+I changed the embedding model. 
 
-My hypothesis is that the model will not make a big difference in the evaluation metrics but that there will be a slight increase of maybe say 0.1-0.4 in the MRR scores. 
+My hypothesis is that the model will not make a big difference in the evaluation metrics but that there will be a slight increase of maybe say 0.01-0.04 (0.1-0.4 is a typo, I was definitely not expecting that big of a jump) in the MRR scores. 
+
+Comparing dense to ablation/dense_bge_base I noticed that the MRR score was .07 in increase which was not distinguishable. That is actually a little more than I was expecting. It still may not be enough to definitively say that that model is better though. What I did not expect was that the recall fell about 0.033. 
+
+My claim was correct in saying that there will be an increase in the MRR scores. I was a off on the range but I also do not think that means that model is definitevely better. The gain is too small for the 30 queries to confirm. A difference of .126 would show up in the interval 80% of the time but since it is only 0.7, it may only show up closer to 50% of the time. 
+
+Three queries went from rank 2 to rank 1. It is possible that the base model understand the query better but even a small change could bump something from rank 2 to rank 1. For c15 I think the model definitely helped. The KJV uses some words that we do not use much anymore but increase to the base model adds the connections needed to recognize that the words have similar meanings and help it identify the correct passage. c19 got worse because it may have identified the wrong queen (Queen Vashti). c12 is hard because there are many passages that talk about sin and death but I was hoping for a more exact match but since that is not a dense retriever strong suit, it does worse. 
 
 ---
 

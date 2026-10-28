@@ -26,9 +26,7 @@ Commit this answer before your first `uv run p2 score` on the own corpus.
 Git history then shows that the expectation came first, which is what lets it be wrong in a way that teaches you something.
 If you were surprised later, say so in prompt 4 or in EVAL.md; do not come back and rewrite this one.
 
-TODO: your answer to prompt 1.
-
-My faith is very important to me and I aspire to read the Bible every day which is why I chose to use it as my corpus. I often do not remember where a passage is in the Bible and a RAG system that could search for a specific passage or verse would be very helpful. I think bm25 
+My faith is very important to me and I aspire to read the Bible every day which is why I chose to use it as my corpus. I often do not remember where a passage is in the Bible and a RAG system that could search for a specific passage or verse would be very helpful.
 
 I already know the answer on whether bm25, dense, hybrid, or rerank performs best. 
 
