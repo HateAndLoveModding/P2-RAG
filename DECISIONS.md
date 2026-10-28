@@ -43,7 +43,7 @@ If you rejected the alternative without measuring it, say why that was a fair ca
 "There was no alternative" is not an answer.
 Find the fork.
 
-TODO: your answer to prompt 2.
+Right at the beginning I was going to use the entire KJV Bible but when Claude told me that that it was too big I had to decide whether to find a different corpus, keep the whole KJV Bible, or cut some books. I decided to cut some books because I didn't want to try to find a different corpus and I didn't want to go over 1 million tokens. But that also meant that I had to choose which books to keep and which ones to get rid of. I ultimately decided to keep the books that I thought I referenced the most so I just looked at each book and subjectively decided which books to keep.
 
 ---
 
@@ -59,7 +59,7 @@ What did you do instead?
 If it genuinely never happened, say so plainly, and then say what you would have had to check in order to notice.
 Being honest here costs you far less than a story you cannot defend when you record your video.
 
-TODO: your answer to prompt 3.
+I overruled the agent when evaluating the logic of claude on prompt a01. I thought Claude was wrong. There was no side effect per se so I didn't anything instead. 
 
 ---
 
@@ -71,7 +71,7 @@ It could be a mean over a small query class, a difference whose interval include
 What would have to be true for you to trust it?
 Did you do anything to test it, and what did that show?
 
-TODO: your answer to prompt 4.
+I don't trust the Claude queries for my own corpora. The rerank on those queries give a MRR of 1 but my hand ones have a MRR of 0.633. Granted some of my queries are very difficult, but I kind of feel like Claude is cheating a little bit. I don't know if I can trust the actual queries but I can grow my trust in the RAG by writing more of my own hand written queries that I actually want to know. 
 
 ---
 
@@ -82,44 +82,4 @@ One thing in your system, your corpus or your gold set that is not right, not fi
 What would you do next, and how would you find out whether it matters?
 Name the file, the query or the document where someone could look.
 
-TODO: your answer to prompt 5.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-One document per chapter, with the reference written inline on every verse (`Isaiah 5:10 And ten acres...`), so every chunk carries book, chapter and verse.
-
-https://guides.library.cornell.edu/copyright/publicdomain
-https://www.gutenberg.org/ebooks/10
+I would experiment with a different version of the Bible as well as chunk and document sizes. I would also write more test queries and evaluate everything and compare to see if the values improve which show that those things do matter. 

@@ -25,9 +25,9 @@ The minimum detectable difference is the smallest gap this many queries could re
 
 For each of `dense`, `hybrid` and `rerank`, one or two sentences: the embedding model, how documents were chunked, what was fused and how, how many candidates the reranker saw, and anything you changed from the 12 and 13 lab code.
 
-TODO: describe your three systems.
-
-
+dense embeds 300-word chunks with 50 words overlap using the bge-small-en-v1.5 model
+hybrid fuses bm25 and dense using a k of 10 and 1 / (k + bm25_rank) + 1 / (k + dense_rank)
+rerank asks claude to rerank hybrid's results based on what it thinks is most relevant
 
 ### Practice queries (20)
 
@@ -99,7 +99,7 @@ Which differences are distinguishable from zero and which are not?
 What is the minimum detectable difference at 20 queries, and what does that say about any gap smaller than it?
 Which claim from lecture 12 or 13 did your numbers support, and which did they leave open?
 
-TODO: write what the practice-query intervals let you claim.
+Rerank is distinguishably higher in MRR and nDCG and hybrid is only better in recall. Dense and bm25 are not distinguishable. The minimum detectable differences go from 0.05 to .4 and gaps smaller than about 0.25 do not show up with only 20 queries. My numbers support the claim from lecture 12.
 
 ---
 
@@ -359,8 +359,11 @@ Then sort the failures by cause, for example a vocabulary mismatch, near-duplica
 
 | qid | what the best system returned | what was relevant | cause | what you would try |
 |---|---|---|---|---|
-
-TODO: add one row for each failure you analyzed, and write two or three sentences on the pattern you see across them.
+| h03 | 0.0 | Nothing | The KJV only has the word slave twice in all the chapters combined (Jeremiah 2 and Revelation 18). The KJV uses the word servant instead of slave. This is tricky because a slave and a servant are usually not associated as very similar. | I would use the word servant instead of slave and also understand how those words were translated from the original language. I do not think think this is a problem with the RAG, I think it is a prompt problem that causes the RAG to fail. There is very little context in the prompt and the little it does have is not helpful for either bm25 or dense. |
+| h07 | MRR: 0.333333 | After looking at the passages it returned (Mark 1, Matthew 3, Colossians 2, Acts 19, 1 Peter 3) the passages definitely look relevant. | They are all talking about baptism but the problem is that there are actually a ton of verses about baptism and the specific ones that came to my mind first when writing the evaluation were generally not the same ones that the RAG returned. | This could also be a prompt problem. Making the query more specific could help the RAG lock in on a smaller set of passages. This is also not a failure based on the relevance rule because for topic queries I may want a broad range of passages and I feel like the RAG did a good job of that. I could try maybe searching for a specific word (like baptism) instead of specifing a couple random passages. |
+| h09 | 0.0 | Nothing | This is also a hard passage because the only actually relevant information in the query is "haughty eyes" which does not appear in the KJV version. This is again more of a prompt problem, not giving the RAG enough information. It is also very hard for the embedding model to pick up on the connection between a proud look and haughty eyes. | I would try rephrasing the query. I would also experiment with a different translation because a translation like the ESV uses different wording which I am more used to. |
+| h10 | 0.0 | Nothing | Again discipline appears only once in the KJV and proverbs 3 uses chasten instead. The embedding model is not able to make that connection. | Updating the query and or using a different version of the Bible. |
+| c17 | MRR 1.0, Recall 0.5 | Genesis 22 | There is one short clause in Hebrews that talks about Abraham and it is hard for the embedding model to pick it out and it needs more specfic information in the query in order to find that chapter. That chapter is also more than a thousand words and includes references to many other people. | If I was trying to find the Hebrews passage, I would use the Genesis passage to tailor the query to try to match more words. |
 
 ---
 
@@ -373,7 +376,8 @@ Did the winner change between the shared corpus and yours?
 Why, or why not: what is different about the two collections (document length, vocabulary, identifiers, near-duplicates, how the queries were written), and which of your explanations did you test and which are guesses?
 Say what 20 queries on one side and your gold-set size on the other cannot support.
 
-TODO: write the cross-corpus comparison.
+Rerank was the winning system for both the shared corpora and my corpora. The MRR of the shared corpora was only slightly higher. 
+My corpus documents were significantly longer and so more information was getting compacted into each embedding vector. My quote class was similar to the paraphrase class. bm25 did not do well on the shared paraphrase queries but it did great on my quote class getting a MRR of 0.9. That may because I roughly know the verse I am trying to find and most of the words actually appear in the verse allowing bm25 to find the right verse. My reference class was similar to the identifier class. dense did well at finding my references possibly because for most of the queries I also gave it some other information that the dense retriever needs to succeed and it was just enough to get it to a MRR of 0.78. I did not test different document length or how the queries were written which are my best guesses. 
 
 ---
 
