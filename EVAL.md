@@ -173,6 +173,7 @@ Scores per system on your gold set.
 | dense | 0.650 | 0.488 | 0.511 |
 | hybrid | 0.825 | 0.575 | 0.635 |
 | rerank | 0.858 | 0.878 | 0.860 |
+| ablation/dense_bge_base | 0.617 | 0.558 | 0.563 |
 
 30 judged queries; nDCG uses binary labels; a random ranking of the 971 documents would get recall@10 near 0.010.
 <!-- p2:end own -->
@@ -194,6 +195,9 @@ The same scores per query class.
 | rerank | Recall@10 | 1.000 | 1.000 | 0.575 |
 | rerank | MRR@10 | 1.000 | 1.000 | 0.633 |
 | rerank | nDCG@10 | 1.000 | 1.000 | 0.581 |
+| ablation/dense_bge_base | Recall@10 | 1.000 | 0.350 | 0.500 |
+| ablation/dense_bge_base | MRR@10 | 0.883 | 0.325 | 0.464 |
+| ablation/dense_bge_base | nDCG@10 | 0.913 | 0.326 | 0.449 |
 <!-- p2:end own-classes -->
 
 The same scores for the queries you wrote yourself (`hand`) and the ones a model drafted (`claude`), with the difference between the two groups and its interval.
@@ -214,6 +218,9 @@ Once both groups have queries, the table also says whether `bm25`'s lead over `d
 | rerank | Recall@10 | 0.625 | 0.975 | -0.350 | [-0.650, -0.075] | claude higher |
 | rerank | MRR@10 | 0.633 | 1.000 | -0.367 | [-0.667, -0.100] | claude higher |
 | rerank | nDCG@10 | 0.620 | 0.981 | -0.361 | [-0.661, -0.081] | claude higher |
+| ablation/dense_bge_base | Recall@10 | 0.450 | 0.700 | -0.250 | [-0.576, +0.100] | not distinguishable |
+| ablation/dense_bge_base | MRR@10 | 0.414 | 0.629 | -0.215 | [-0.557, +0.148] | not distinguishable |
+| ablation/dense_bge_base | nDCG@10 | 0.425 | 0.632 | -0.207 | [-0.544, +0.149] | not distinguishable |
 
 The hand and claude queries are different queries, so the interval of hand minus claude comes from resampling the queries within each group (10,000 times), not from pairing them.
 
@@ -253,6 +260,18 @@ Differences between every pair of systems.
 | rerank minus hybrid | Recall@10 | +0.033 | [+0.000, +0.100] | 0.093 | not distinguishable |
 | rerank minus hybrid | MRR@10 | +0.303 | [+0.177, +0.432] | 0.184 | rerank higher |
 | rerank minus hybrid | nDCG@10 | +0.225 | [+0.130, +0.325] | 0.143 | rerank higher |
+| ablation/dense_bge_base minus bm25 | Recall@10 | -0.192 | [-0.367, -0.017] | 0.259 | bm25 higher |
+| ablation/dense_bge_base minus bm25 | MRR@10 | -0.101 | [-0.295, +0.093] | 0.283 | not distinguishable |
+| ablation/dense_bge_base minus bm25 | nDCG@10 | -0.125 | [-0.306, +0.054] | 0.263 | not distinguishable |
+| ablation/dense_bge_base minus dense | Recall@10 | -0.033 | [-0.150, +0.050] | 0.149 | not distinguishable |
+| ablation/dense_bge_base minus dense | MRR@10 | +0.069 | [-0.010, +0.159] | 0.126 | not distinguishable |
+| ablation/dense_bge_base minus dense | nDCG@10 | +0.052 | [-0.024, +0.129] | 0.114 | not distinguishable |
+| ablation/dense_bge_base minus hybrid | Recall@10 | -0.208 | [-0.358, -0.075] | 0.213 | hybrid higher |
+| ablation/dense_bge_base minus hybrid | MRR@10 | -0.018 | [-0.133, +0.101] | 0.172 | not distinguishable |
+| ablation/dense_bge_base minus hybrid | nDCG@10 | -0.072 | [-0.186, +0.036] | 0.163 | not distinguishable |
+| ablation/dense_bge_base minus rerank | Recall@10 | -0.242 | [-0.400, -0.092] | 0.224 | rerank higher |
+| ablation/dense_bge_base minus rerank | MRR@10 | -0.320 | [-0.476, -0.170] | 0.222 | rerank higher |
+| ablation/dense_bge_base minus rerank | nDCG@10 | -0.297 | [-0.454, -0.149] | 0.221 | rerank higher |
 
 The interval is a paired bootstrap (10,000 resamples of the queries); MDD is the smallest difference this many queries detect 80% of the time.
 <!-- p2:end own-pairs -->
@@ -265,6 +284,10 @@ TODO: write what your own-corpus intervals let you claim.
 
 The hybrid and rerank recall is not much higher than bm25 but the biggest jump was the rerank MRR score. That shows that the retrievers are returning the right information but the standard hybrid combining metric is not actually helping. Having the agent though rank the documents does make a big difference because Claude actually has some logic and not just a deterministic math weight. 
 
+No the hand and claude queries do not tell the same story. The Claude queries were higher in every evaluation metric by what I would say is a significant margin. 
+
+I was surprised. I did not do the prediction before. 
+
 ---
 
 ## 5. The ablation
@@ -274,14 +297,42 @@ Write your hypothesis here before you run it, in one sentence with a direction: 
 The run file for it lives in `runs/own/ablation/`.
 
 <!-- p2:begin own-ablation -->
-_No ablation runs yet: `uv run p2 run --corpus own --system NAME --ablation` writes one to runs/own/ablation/, then `uv run p2 score` fills this table._
+| Comparison | Metric | Mean difference | 95% interval | MDD | Reading |
+| --- | --- | ---: | ---: | ---: | --- |
+| ablation/dense_bge_base minus bm25 | Recall@10 | -0.192 | [-0.367, -0.017] | 0.259 | bm25 higher |
+| ablation/dense_bge_base minus bm25 | MRR@10 | -0.101 | [-0.295, +0.093] | 0.283 | not distinguishable |
+| ablation/dense_bge_base minus bm25 | nDCG@10 | -0.125 | [-0.306, +0.054] | 0.263 | not distinguishable |
+| ablation/dense_bge_base minus dense | Recall@10 | -0.033 | [-0.150, +0.050] | 0.149 | not distinguishable |
+| ablation/dense_bge_base minus dense | MRR@10 | +0.069 | [-0.010, +0.159] | 0.126 | not distinguishable |
+| ablation/dense_bge_base minus dense | nDCG@10 | +0.052 | [-0.024, +0.129] | 0.114 | not distinguishable |
+| ablation/dense_bge_base minus hybrid | Recall@10 | -0.208 | [-0.358, -0.075] | 0.213 | hybrid higher |
+| ablation/dense_bge_base minus hybrid | MRR@10 | -0.018 | [-0.133, +0.101] | 0.172 | not distinguishable |
+| ablation/dense_bge_base minus hybrid | nDCG@10 | -0.072 | [-0.186, +0.036] | 0.163 | not distinguishable |
+| ablation/dense_bge_base minus rerank | Recall@10 | -0.242 | [-0.400, -0.092] | 0.224 | rerank higher |
+| ablation/dense_bge_base minus rerank | MRR@10 | -0.320 | [-0.476, -0.170] | 0.222 | rerank higher |
+| ablation/dense_bge_base minus rerank | nDCG@10 | -0.297 | [-0.454, -0.149] | 0.221 | rerank higher |
+
+The interval is a paired bootstrap (10,000 resamples of the queries); MDD is the smallest difference this many queries detect 80% of the time.
 <!-- p2:end own-ablation -->
 
 The queries your ablation helped and hurt, against the system it varies, by reciprocal rank.
 `p2 score` finds that system from a line such as `BASE = "bm25"` in your variant's file, or else from its name: `bm25_lab` varies `bm25`.
 
 <!-- p2:begin own-ablation-queries -->
-_No ablation runs yet: `uv run p2 run --corpus own --system NAME --ablation` writes one to runs/own/ablation/, then `uv run p2 score` fills this table._
+ablation/dense_bge_base against dense (BASE = "dense" in p2/retrievers/dense_bge_base.py): it helped 6 queries, hurt 2 and left 22 unchanged.
+
+| Query | Class | Origin | dense RR | ablation/dense_bge_base RR | Change | Effect |
+| --- | --- | --- | ---: | ---: | ---: | --- |
+| c15 | topic | claude | 0.111 | 1.000 | +0.889 | helped |
+| c20 | topic | claude | 0.500 | 1.000 | +0.500 | helped |
+| h01 | reference | hand | 0.500 | 1.000 | +0.500 | helped |
+| h05 | reference | hand | 0.500 | 1.000 | +0.500 | helped |
+| c09 | quote | claude | 0.000 | 0.250 | +0.250 | helped |
+| h07 | topic | hand | 0.000 | 0.143 | +0.143 | helped |
+| c19 | topic | claude | 0.500 | 0.000 | -0.500 | hurt |
+| c12 | quote | claude | 0.200 | 0.000 | -0.200 | hurt |
+
+RR is the reciprocal rank of the first relevant document in the top 10 (0 when none is there), the per-query value behind MRR@10; the queries at the top of each list are the ones to read.
 <!-- p2:end own-ablation-queries -->
 
 What did you change, what happened, and does the interval support the claim you want to make?
@@ -378,6 +429,7 @@ Systems that do not call Claude, from traces/retrieval/ on the machine that last
 
 | Trace | System | Queries | Seconds | Milliseconds per query |
 | --- | --- | ---: | ---: | ---: |
+| traces/retrieval/own-own-ablation-dense_bge_base.jsonl | dense_bge_base | 30 | 1.46 | 48.8 |
 | traces/retrieval/own-own-bm25.jsonl | bm25 | 30 | 0.13 | 4.3 |
 | traces/retrieval/own-own-dense.jsonl | dense | 30 | 1.17 | 39.1 |
 | traces/retrieval/own-own-hybrid.jsonl | hybrid | 30 | 1.64 | 54.7 |

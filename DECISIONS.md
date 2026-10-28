@@ -28,6 +28,10 @@ If you were surprised later, say so in prompt 4 or in EVAL.md; do not come back 
 
 TODO: your answer to prompt 1.
 
+My faith is very important to me and I aspire to read the Bible every day which is why I chose to use it as my corpus. I often do not remember where a passage is in the Bible and a RAG system that could search for a specific passage or verse would be very helpful. I think bm25 
+
+I already know the answer on whether bm25, dense, hybrid, or rerank performs best. 
+
 ---
 
 ## 2. A fork in the road

@@ -1682,6 +1682,226 @@
               "reading": "claude higher"
             }
           }
+        },
+        "ablation/dense_bge_base": {
+          "run": "runs/own/ablation/dense_bge_base.trec",
+          "mean": {
+            "recall@10": 0.616667,
+            "mrr@10": 0.55754,
+            "ndcg@10": 0.562891
+          },
+          "by_class": {
+            "reference": {
+              "n": 10,
+              "recall@10": 1.0,
+              "mrr@10": 0.883333,
+              "ndcg@10": 0.913093
+            },
+            "quote": {
+              "n": 10,
+              "recall@10": 0.35,
+              "mrr@10": 0.325,
+              "ndcg@10": 0.326407
+            },
+            "topic": {
+              "n": 10,
+              "recall@10": 0.5,
+              "mrr@10": 0.464286,
+              "ndcg@10": 0.449172
+            }
+          },
+          "per_query": {
+            "h01": {
+              "recall@10": 1.0,
+              "mrr@10": 1.0,
+              "ndcg@10": 1.0
+            },
+            "h02": {
+              "recall@10": 0.0,
+              "mrr@10": 0.0,
+              "ndcg@10": 0.0
+            },
+            "h03": {
+              "recall@10": 0.0,
+              "mrr@10": 0.0,
+              "ndcg@10": 0.0
+            },
+            "h04": {
+              "recall@10": 1.0,
+              "mrr@10": 1.0,
+              "ndcg@10": 1.0
+            },
+            "h05": {
+              "recall@10": 1.0,
+              "mrr@10": 1.0,
+              "ndcg@10": 1.0
+            },
+            "h06": {
+              "recall@10": 0.0,
+              "mrr@10": 0.0,
+              "ndcg@10": 0.0
+            },
+            "h07": {
+              "recall@10": 0.5,
+              "mrr@10": 0.142857,
+              "ndcg@10": 0.247643
+            },
+            "h08": {
+              "recall@10": 1.0,
+              "mrr@10": 1.0,
+              "ndcg@10": 1.0
+            },
+            "h09": {
+              "recall@10": 0.0,
+              "mrr@10": 0.0,
+              "ndcg@10": 0.0
+            },
+            "h10": {
+              "recall@10": 0.0,
+              "mrr@10": 0.0,
+              "ndcg@10": 0.0
+            },
+            "c01": {
+              "recall@10": 1.0,
+              "mrr@10": 0.5,
+              "ndcg@10": 0.63093
+            },
+            "c02": {
+              "recall@10": 1.0,
+              "mrr@10": 1.0,
+              "ndcg@10": 1.0
+            },
+            "c03": {
+              "recall@10": 1.0,
+              "mrr@10": 1.0,
+              "ndcg@10": 1.0
+            },
+            "c04": {
+              "recall@10": 1.0,
+              "mrr@10": 1.0,
+              "ndcg@10": 1.0
+            },
+            "c05": {
+              "recall@10": 1.0,
+              "mrr@10": 1.0,
+              "ndcg@10": 1.0
+            },
+            "c06": {
+              "recall@10": 1.0,
+              "mrr@10": 1.0,
+              "ndcg@10": 1.0
+            },
+            "c07": {
+              "recall@10": 1.0,
+              "mrr@10": 0.333333,
+              "ndcg@10": 0.5
+            },
+            "c08": {
+              "recall@10": 1.0,
+              "mrr@10": 1.0,
+              "ndcg@10": 1.0
+            },
+            "c09": {
+              "recall@10": 0.5,
+              "mrr@10": 0.25,
+              "ndcg@10": 0.264068
+            },
+            "c10": {
+              "recall@10": 1.0,
+              "mrr@10": 1.0,
+              "ndcg@10": 1.0
+            },
+            "c11": {
+              "recall@10": 0.0,
+              "mrr@10": 0.0,
+              "ndcg@10": 0.0
+            },
+            "c12": {
+              "recall@10": 0.0,
+              "mrr@10": 0.0,
+              "ndcg@10": 0.0
+            },
+            "c13": {
+              "recall@10": 0.0,
+              "mrr@10": 0.0,
+              "ndcg@10": 0.0
+            },
+            "c14": {
+              "recall@10": 0.0,
+              "mrr@10": 0.0,
+              "ndcg@10": 0.0
+            },
+            "c15": {
+              "recall@10": 1.0,
+              "mrr@10": 1.0,
+              "ndcg@10": 1.0
+            },
+            "c16": {
+              "recall@10": 1.0,
+              "mrr@10": 1.0,
+              "ndcg@10": 1.0
+            },
+            "c17": {
+              "recall@10": 0.5,
+              "mrr@10": 1.0,
+              "ndcg@10": 0.613147
+            },
+            "c18": {
+              "recall@10": 1.0,
+              "mrr@10": 0.5,
+              "ndcg@10": 0.63093
+            },
+            "c19": {
+              "recall@10": 0.0,
+              "mrr@10": 0.0,
+              "ndcg@10": 0.0
+            },
+            "c20": {
+              "recall@10": 1.0,
+              "mrr@10": 1.0,
+              "ndcg@10": 1.0
+            }
+          },
+          "by_origin": {
+            "hand": {
+              "n": 10,
+              "recall@10": 0.45,
+              "mrr@10": 0.414286,
+              "ndcg@10": 0.424764
+            },
+            "claude": {
+              "n": 20,
+              "recall@10": 0.7,
+              "mrr@10": 0.629167,
+              "ndcg@10": 0.631954
+            }
+          },
+          "origin_diff": {
+            "recall@10": {
+              "mean_diff": -0.25,
+              "ci95": [
+                -0.575625,
+                0.1
+              ],
+              "reading": "not distinguishable"
+            },
+            "mrr@10": {
+              "mean_diff": -0.214881,
+              "ci95": [
+                -0.556562,
+                0.147619
+              ],
+              "reading": "not distinguishable"
+            },
+            "ndcg@10": {
+              "mean_diff": -0.207189,
+              "ci95": [
+                -0.543986,
+                0.148954
+              ],
+              "reading": "not distinguishable"
+            }
+          }
         }
       },
       "pairs": [
@@ -1936,6 +2156,174 @@
           "sd_diff": 0.278997,
           "mdd80": 0.142706,
           "reading": "rerank higher"
+        },
+        {
+          "a": "ablation/dense_bge_base",
+          "b": "bm25",
+          "metric": "recall@10",
+          "n": 30,
+          "mean_diff": -0.191667,
+          "ci95": [
+            -0.366667,
+            -0.016667
+          ],
+          "sd_diff": 0.507204,
+          "mdd80": 0.259433,
+          "reading": "bm25 higher"
+        },
+        {
+          "a": "ablation/dense_bge_base",
+          "b": "bm25",
+          "metric": "mrr@10",
+          "n": 30,
+          "mean_diff": -0.100648,
+          "ci95": [
+            -0.294578,
+            0.093466
+          ],
+          "sd_diff": 0.553782,
+          "mdd80": 0.283258,
+          "reading": "not distinguishable"
+        },
+        {
+          "a": "ablation/dense_bge_base",
+          "b": "bm25",
+          "metric": "ndcg@10",
+          "n": 30,
+          "mean_diff": -0.124901,
+          "ci95": [
+            -0.305644,
+            0.054263
+          ],
+          "sd_diff": 0.514925,
+          "mdd80": 0.263383,
+          "reading": "not distinguishable"
+        },
+        {
+          "a": "ablation/dense_bge_base",
+          "b": "dense",
+          "metric": "recall@10",
+          "n": 30,
+          "mean_diff": -0.033333,
+          "ci95": [
+            -0.15,
+            0.05
+          ],
+          "sd_diff": 0.291646,
+          "mdd80": 0.149176,
+          "reading": "not distinguishable"
+        },
+        {
+          "a": "ablation/dense_bge_base",
+          "b": "dense",
+          "metric": "mrr@10",
+          "n": 30,
+          "mean_diff": 0.069392,
+          "ci95": [
+            -0.010238,
+            0.159259
+          ],
+          "sd_diff": 0.246952,
+          "mdd80": 0.126315,
+          "reading": "not distinguishable"
+        },
+        {
+          "a": "ablation/dense_bge_base",
+          "b": "dense",
+          "metric": "ndcg@10",
+          "n": 30,
+          "mean_diff": 0.051647,
+          "ci95": [
+            -0.023999,
+            0.129215
+          ],
+          "sd_diff": 0.223559,
+          "mdd80": 0.11435,
+          "reading": "not distinguishable"
+        },
+        {
+          "a": "ablation/dense_bge_base",
+          "b": "hybrid",
+          "metric": "recall@10",
+          "n": 30,
+          "mean_diff": -0.208333,
+          "ci95": [
+            -0.358333,
+            -0.075
+          ],
+          "sd_diff": 0.41566,
+          "mdd80": 0.212609,
+          "reading": "hybrid higher"
+        },
+        {
+          "a": "ablation/dense_bge_base",
+          "b": "hybrid",
+          "metric": "mrr@10",
+          "n": 30,
+          "mean_diff": -0.0175,
+          "ci95": [
+            -0.133333,
+            0.100647
+          ],
+          "sd_diff": 0.335332,
+          "mdd80": 0.171521,
+          "reading": "not distinguishable"
+        },
+        {
+          "a": "ablation/dense_bge_base",
+          "b": "hybrid",
+          "metric": "ndcg@10",
+          "n": 30,
+          "mean_diff": -0.072481,
+          "ci95": [
+            -0.186257,
+            0.035971
+          ],
+          "sd_diff": 0.318723,
+          "mdd80": 0.163026,
+          "reading": "not distinguishable"
+        },
+        {
+          "a": "ablation/dense_bge_base",
+          "b": "rerank",
+          "metric": "recall@10",
+          "n": 30,
+          "mean_diff": -0.241667,
+          "ci95": [
+            -0.4,
+            -0.091667
+          ],
+          "sd_diff": 0.43788,
+          "mdd80": 0.223974,
+          "reading": "rerank higher"
+        },
+        {
+          "a": "ablation/dense_bge_base",
+          "b": "rerank",
+          "metric": "mrr@10",
+          "n": 30,
+          "mean_diff": -0.320238,
+          "ci95": [
+            -0.475794,
+            -0.170238
+          ],
+          "sd_diff": 0.434172,
+          "mdd80": 0.222078,
+          "reading": "rerank higher"
+        },
+        {
+          "a": "ablation/dense_bge_base",
+          "b": "rerank",
+          "metric": "ndcg@10",
+          "n": 30,
+          "mean_diff": -0.297387,
+          "ci95": [
+            -0.4535,
+            -0.149134
+          ],
+          "sd_diff": 0.43206,
+          "mdd80": 0.220997,
+          "reading": "rerank higher"
         }
       ],
       "origins": {
@@ -1986,6 +2374,82 @@
             "n": 20,
             "mean": 0.850258
           }
+        }
+      },
+      "ablation_queries": {
+        "ablation/dense_bge_base": {
+          "system": "dense_bge_base",
+          "base": "dense",
+          "rule": "BASE = \"dense\" in p2/retrievers/dense_bge_base.py",
+          "helped": [
+            {
+              "qid": "c15",
+              "class": "topic",
+              "origin": "claude",
+              "base_rr": 0.111111,
+              "rr": 1.0,
+              "change": 0.888889
+            },
+            {
+              "qid": "c20",
+              "class": "topic",
+              "origin": "claude",
+              "base_rr": 0.5,
+              "rr": 1.0,
+              "change": 0.5
+            },
+            {
+              "qid": "h01",
+              "class": "reference",
+              "origin": "hand",
+              "base_rr": 0.5,
+              "rr": 1.0,
+              "change": 0.5
+            },
+            {
+              "qid": "h05",
+              "class": "reference",
+              "origin": "hand",
+              "base_rr": 0.5,
+              "rr": 1.0,
+              "change": 0.5
+            },
+            {
+              "qid": "c09",
+              "class": "quote",
+              "origin": "claude",
+              "base_rr": 0.0,
+              "rr": 0.25,
+              "change": 0.25
+            },
+            {
+              "qid": "h07",
+              "class": "topic",
+              "origin": "hand",
+              "base_rr": 0.0,
+              "rr": 0.142857,
+              "change": 0.142857
+            }
+          ],
+          "hurt": [
+            {
+              "qid": "c19",
+              "class": "topic",
+              "origin": "claude",
+              "base_rr": 0.5,
+              "rr": 0.0,
+              "change": -0.5
+            },
+            {
+              "qid": "c12",
+              "class": "quote",
+              "origin": "claude",
+              "base_rr": 0.2,
+              "rr": 0.0,
+              "change": -0.2
+            }
+          ],
+          "unchanged": 22
         }
       }
     }
@@ -2352,6 +2816,12 @@
       ],
       "answers_pairs": [],
       "local": [
+        {
+          "file": "traces/retrieval/own-own-ablation-dense_bge_base.jsonl",
+          "system": "dense_bge_base",
+          "spans": 30,
+          "seconds": 1.4637
+        },
         {
           "file": "traces/retrieval/own-own-bm25.jsonl",
           "system": "bm25",
