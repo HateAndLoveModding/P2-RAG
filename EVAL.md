@@ -263,6 +263,8 @@ Did your prediction in `DECISIONS.md` prompt 1 hold?
 
 TODO: write what your own-corpus intervals let you claim.
 
+The hybrid and rerank recall is not much higher than bm25 but the biggest jump was the rerank MRR score. That shows that the retrievers are returning the right information but the standard hybrid combining metric is not actually helping. Having the agent though rank the documents does make a big difference because Claude actually has some logic and not just a deterministic math weight. 
+
 ---
 
 ## 5. The ablation
@@ -287,6 +289,8 @@ If the result is not distinguishable, say what size of effect your gold set coul
 Read the queries at the top of each list in the second table, and say whether your change explains them.
 
 TODO: write the ablation: the one change, the hypothesis, the result and the claim.
+
+My hypothesis is that the model will not make a big difference in the evaluation metrics but that there will be a slight increase of maybe say 0.1-0.4 in the MRR scores. 
 
 ---
 
