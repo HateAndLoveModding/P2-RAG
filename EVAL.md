@@ -104,7 +104,9 @@ TODO: write what the practice-query intervals let you claim.
 ## 2. Stage 1 - cited answers on the 12 shared questions
 
 <!-- p2:begin answers -->
-_No answers files yet: run `uv run p2 answer --corpus shared --system NAME`, then `uv run p2 score`._
+| Label | System | Verified (in) | 95% interval | not_found (in) | Declined (out) | 95% interval | Quotes found |
+| --- | --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| rerank | rerank | 8 of 8 (100%) | [0.676, 1.000] | 0 of 8 (0%) | 4 of 4 (100%) | [0.510, 1.000] | 13 of 13 |
 <!-- p2:end answers -->
 
 Which system answered, and why that one?
@@ -114,7 +116,18 @@ Then read three in-corpus answers that `uv run p2 verify` passed.
 For each one, open the cited chunk and say whether the quote really supports the claim next to it.
 The check proves a quote is a real piece of the chunk and cannot prove that it supports the claim, so this reading is the part only you can do.
 
-TODO: write your answer choices and your three-answer audit.
+I used system rerank because the MRR evaluation metric was significantly higher which is important especially when using Claude because the first documents returned are viewed as more important and reduces the likelyhood of hallucination. I did not change anything `prompts/answer.txt` because I felt like the prompt was direct and specific and did not need any updating. `uv run p2 verify` passed with flying colors so I am only checking whether the document supports the claim that Claude made. 
+
+a01: FAIL
+I said that a01 failed because I think Claude misinterpreted the document. The document says, "The operator shall immediately contact MSHA at once without delay." The first line of Claude's response is "Within 15 minutes." The second sentence is a very close copy of the actual document but the wording changed a little bit and I think it changes the meaning a little bit. I Interpreted "The operator shall immediately contact MSHA at once without delay and within 15 minutes at the toll-free number" to mean that the operator must contact MSHA immediately, without delay, but they must also contact the toll-free number within 15 minutes. I am thinking that there may be some sort of local MSHA which the operator must contact immediately but there is also a remote MSHA which the operator must contact via phone within 15 minutes (don't quote me on that).
+
+a04: PASS
+The document was very clear and Claude interpreted it correctly that.
+
+a08: PASS
+Claude correctly recognized that breatable air must sustain each person for 96 hours. 
+
+Claude does well if there is a specific direct answer but not if there is an ambiguous answer. Claude may not recognize an ambiguous answer though which seems like the main problem. Claude ideally should ask for clarification for ambiguous texts. 
 
 ---
 
@@ -317,6 +330,7 @@ Every trace in traces/ that records a Claude call:
 
 | Trace | System | Spans | Claude calls | Saved | Input tokens | Output tokens | Seconds | Input per span | Output per span | Seconds per span |
 | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| traces/answers-rerank.jsonl | rerank | 12 | 24 | 4 | 202,019 | 5,104 | 90.9 | 16,835 | 425 | 7.6 |
 | traces/own-own-rerank.jsonl | rerank | 10 | 10 | 0 | 159,786 | 1,177 | 36.5 | 15,979 | 118 | 3.7 |
 | traces/shared-practice-rerank.jsonl | rerank | 20 | 20 | 20 | 289,025 | 1,930 | 132.0 | 14,451 | 96 | 6.6 |
 | traces/shared-test-rerank.jsonl | rerank | 40 | 40 | 40 | 518,873 | 3,640 | 189.7 | 12,972 | 91 | 4.7 |
