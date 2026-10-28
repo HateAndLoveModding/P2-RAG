@@ -961,6 +961,8 @@ The interval does not let me claim that there is a chunk size that will produce 
 
 I would explore why rerank_hybrid_w150 was higher than hybrid but rerank was higher than rerank_hybrid_w150. A distinguishable increase in rerank_hybrid_w150 over hybrid would tell me that overall the RAG performs better with a chunk size of 150 rather than 300. 
 
+My hybrid_w150 vs hybrid hypothesis was basically correct but the rerank_hybrid_w150 vs rerank was wrong because the values were lower though by a non-distinguishable amount. 
+
 ---
 
 ## 9. 598E only - repeats and the pre-registered claim
