@@ -9,8 +9,11 @@ It is rerank_one() from the 13 lab's pipeline.py with these changes:
 - every call goes through p2.claude.call, which caches the reply in .cache/claude/ and records the
   tokens in the run's trace.
 
-A reply that is not each of 1 to n once, or a call that fails, keeps hybrid's order (with a warning),
-and everything below the top 20 keeps hybrid's order underneath. Scores are positions counted from the
+The first stage is an argument of Rerank, so a variant can rerank another system's top 20
+(rerank_dense_w150 reranks dense_w150's); the chunks it shows Claude are cut with that cfg's settings.
+
+A reply that is not each of 1 to n once, or a call that fails, keeps the first stage's order (with a
+warning), and everything below the top 20 keeps the first stage's order underneath. Scores are positions counted from the
 bottom (the last item scores 1), so they are distinct and non-increasing, as a run file needs.
 """
 
@@ -37,10 +40,11 @@ def rerank_schema(n: int) -> dict:
 
 
 class Rerank:
-    def __init__(self, corpus, cfg):
+    def __init__(self, corpus, cfg, first: str = "hybrid"):
         self.cfg = cfg
         self.model = cfg.model  # recorded in traces
-        self.first = retrievers.build("hybrid", corpus, cfg)
+        self.first_name = first
+        self.first = retrievers.build(first, corpus, cfg)
         self.chunk_text = corpus.chunk_texts(cfg.chunk_words, cfg.chunk_overlap)
         self.n_chunks = len(self.chunk_text)
 
@@ -55,7 +59,7 @@ class Rerank:
         order = (reply.output or {}).get("order")
         if reply.error or not isinstance(order, list) or sorted(order) != list(range(1, n + 1)):
             problem = reply.error or f"the reply was not each of 1 to {n} once: {order}"
-            print(f"    rerank kept hybrid's order: {problem}", flush=True)
+            print(f"    rerank kept {self.first_name}'s order: {problem}", flush=True)
             return ids
         return [ids[i - 1] for i in order]
 

@@ -176,6 +176,12 @@ Scores per system on your gold set.
 | hybrid | 0.825 | 0.575 | 0.635 |
 | rerank | 0.858 | 0.878 | 0.860 |
 | ablation/dense_bge_base | 0.617 | 0.558 | 0.563 |
+| ablation/dense_w100 | 0.650 | 0.507 | 0.528 |
+| ablation/dense_w150 | 0.683 | 0.484 | 0.522 |
+| ablation/dense_w200 | 0.642 | 0.466 | 0.491 |
+| ablation/dense_w250 | 0.586 | 0.499 | 0.489 |
+| ablation/dense_w350 | 0.650 | 0.509 | 0.528 |
+| ablation/rerank_dense_w150 | 0.761 | 0.778 | 0.761 |
 
 30 judged queries; nDCG uses binary labels; a random ranking of the 971 documents would get recall@10 near 0.010.
 <!-- p2:end own -->
@@ -200,6 +206,24 @@ The same scores per query class.
 | ablation/dense_bge_base | Recall@10 | 1.000 | 0.350 | 0.500 |
 | ablation/dense_bge_base | MRR@10 | 0.883 | 0.325 | 0.464 |
 | ablation/dense_bge_base | nDCG@10 | 0.913 | 0.326 | 0.449 |
+| ablation/dense_w100 | Recall@10 | 0.950 | 0.500 | 0.500 |
+| ablation/dense_w100 | MRR@10 | 0.775 | 0.500 | 0.245 |
+| ablation/dense_w100 | nDCG@10 | 0.794 | 0.500 | 0.289 |
+| ablation/dense_w150 | Recall@10 | 0.900 | 0.600 | 0.550 |
+| ablation/dense_w150 | MRR@10 | 0.700 | 0.453 | 0.298 |
+| ablation/dense_w150 | nDCG@10 | 0.734 | 0.481 | 0.351 |
+| ablation/dense_w200 | Recall@10 | 1.000 | 0.550 | 0.375 |
+| ablation/dense_w200 | MRR@10 | 0.761 | 0.460 | 0.176 |
+| ablation/dense_w200 | nDCG@10 | 0.801 | 0.453 | 0.217 |
+| ablation/dense_w250 | Recall@10 | 0.900 | 0.450 | 0.408 |
+| ablation/dense_w250 | MRR@10 | 0.725 | 0.364 | 0.408 |
+| ablation/dense_w250 | nDCG@10 | 0.749 | 0.384 | 0.334 |
+| ablation/dense_w350 | Recall@10 | 0.900 | 0.450 | 0.600 |
+| ablation/dense_w350 | MRR@10 | 0.770 | 0.500 | 0.258 |
+| ablation/dense_w350 | nDCG@10 | 0.782 | 0.461 | 0.339 |
+| ablation/rerank_dense_w150 | Recall@10 | 1.000 | 0.700 | 0.583 |
+| ablation/rerank_dense_w150 | MRR@10 | 1.000 | 0.700 | 0.633 |
+| ablation/rerank_dense_w150 | nDCG@10 | 1.000 | 0.700 | 0.582 |
 <!-- p2:end own-classes -->
 
 The same scores for the queries you wrote yourself (`hand`) and the ones a model drafted (`claude`), with the difference between the two groups and its interval.
@@ -223,6 +247,24 @@ Once both groups have queries, the table also says whether `bm25`'s lead over `d
 | ablation/dense_bge_base | Recall@10 | 0.450 | 0.700 | -0.250 | [-0.576, +0.100] | not distinguishable |
 | ablation/dense_bge_base | MRR@10 | 0.414 | 0.629 | -0.215 | [-0.557, +0.148] | not distinguishable |
 | ablation/dense_bge_base | nDCG@10 | 0.425 | 0.632 | -0.207 | [-0.544, +0.149] | not distinguishable |
+| ablation/dense_w100 | Recall@10 | 0.500 | 0.725 | -0.225 | [-0.550, +0.125] | not distinguishable |
+| ablation/dense_w100 | MRR@10 | 0.425 | 0.547 | -0.122 | [-0.425, +0.203] | not distinguishable |
+| ablation/dense_w100 | nDCG@10 | 0.405 | 0.589 | -0.184 | [-0.466, +0.117] | not distinguishable |
+| ablation/dense_w150 | Recall@10 | 0.500 | 0.775 | -0.275 | [-0.600, +0.050] | not distinguishable |
+| ablation/dense_w150 | MRR@10 | 0.403 | 0.524 | -0.120 | [-0.415, +0.195] | not distinguishable |
+| ablation/dense_w150 | nDCG@10 | 0.399 | 0.583 | -0.184 | [-0.469, +0.118] | not distinguishable |
+| ablation/dense_w200 | Recall@10 | 0.425 | 0.750 | -0.325 | [-0.650, +0.025] | not distinguishable |
+| ablation/dense_w200 | MRR@10 | 0.322 | 0.537 | -0.215 | [-0.531, +0.122] | not distinguishable |
+| ablation/dense_w200 | nDCG@10 | 0.324 | 0.574 | -0.250 | [-0.540, +0.064] | not distinguishable |
+| ablation/dense_w250 | Recall@10 | 0.358 | 0.700 | -0.342 | [-0.650, +0.000] | not distinguishable |
+| ablation/dense_w250 | MRR@10 | 0.425 | 0.536 | -0.111 | [-0.445, +0.239] | not distinguishable |
+| ablation/dense_w250 | nDCG@10 | 0.339 | 0.564 | -0.225 | [-0.516, +0.092] | not distinguishable |
+| ablation/dense_w350 | Recall@10 | 0.350 | 0.800 | -0.450 | [-0.750, -0.125] | claude higher |
+| ablation/dense_w350 | MRR@10 | 0.320 | 0.604 | -0.284 | [-0.602, +0.062] | not distinguishable |
+| ablation/dense_w350 | nDCG@10 | 0.307 | 0.638 | -0.331 | [-0.622, -0.011] | claude higher |
+| ablation/rerank_dense_w150 | Recall@10 | 0.683 | 0.800 | -0.117 | [-0.417, +0.183] | not distinguishable |
+| ablation/rerank_dense_w150 | MRR@10 | 0.733 | 0.800 | -0.067 | [-0.383, +0.233] | not distinguishable |
+| ablation/rerank_dense_w150 | nDCG@10 | 0.682 | 0.800 | -0.118 | [-0.422, +0.185] | not distinguishable |
 
 The hand and claude queries are different queries, so the interval of hand minus claude comes from resampling the queries within each group (10,000 times), not from pairing them.
 
@@ -274,6 +316,141 @@ Differences between every pair of systems.
 | ablation/dense_bge_base minus rerank | Recall@10 | -0.242 | [-0.400, -0.092] | 0.224 | rerank higher |
 | ablation/dense_bge_base minus rerank | MRR@10 | -0.320 | [-0.476, -0.170] | 0.222 | rerank higher |
 | ablation/dense_bge_base minus rerank | nDCG@10 | -0.297 | [-0.454, -0.149] | 0.221 | rerank higher |
+| ablation/dense_w100 minus bm25 | Recall@10 | -0.158 | [-0.317, -0.008] | 0.229 | bm25 higher |
+| ablation/dense_w100 minus bm25 | MRR@10 | -0.152 | [-0.294, -0.027] | 0.197 | bm25 higher |
+| ablation/dense_w100 minus bm25 | nDCG@10 | -0.160 | [-0.299, -0.036] | 0.193 | bm25 higher |
+| ablation/dense_w100 minus dense | Recall@10 | +0.000 | [-0.083, +0.100] | 0.134 | not distinguishable |
+| ablation/dense_w100 minus dense | MRR@10 | +0.019 | [-0.108, +0.147] | 0.187 | not distinguishable |
+| ablation/dense_w100 minus dense | nDCG@10 | +0.016 | [-0.083, +0.124] | 0.152 | not distinguishable |
+| ablation/dense_w100 minus hybrid | Recall@10 | -0.175 | [-0.308, -0.050] | 0.187 | hybrid higher |
+| ablation/dense_w100 minus hybrid | MRR@10 | -0.068 | [-0.173, +0.038] | 0.153 | not distinguishable |
+| ablation/dense_w100 minus hybrid | nDCG@10 | -0.108 | [-0.202, -0.014] | 0.137 | hybrid higher |
+| ablation/dense_w100 minus rerank | Recall@10 | -0.208 | [-0.350, -0.075] | 0.202 | rerank higher |
+| ablation/dense_w100 minus rerank | MRR@10 | -0.371 | [-0.528, -0.222] | 0.223 | rerank higher |
+| ablation/dense_w100 minus rerank | nDCG@10 | -0.333 | [-0.476, -0.199] | 0.202 | rerank higher |
+| ablation/dense_w100 minus ablation/dense_bge_base | Recall@10 | +0.033 | [-0.067, +0.150] | 0.164 | not distinguishable |
+| ablation/dense_w100 minus ablation/dense_bge_base | MRR@10 | -0.051 | [-0.207, +0.106] | 0.232 | not distinguishable |
+| ablation/dense_w100 minus ablation/dense_bge_base | nDCG@10 | -0.035 | [-0.164, +0.102] | 0.195 | not distinguishable |
+| ablation/dense_w150 minus bm25 | Recall@10 | -0.125 | [-0.250, -0.025] | 0.167 | bm25 higher |
+| ablation/dense_w150 minus bm25 | MRR@10 | -0.175 | [-0.324, -0.034] | 0.212 | bm25 higher |
+| ablation/dense_w150 minus bm25 | nDCG@10 | -0.166 | [-0.307, -0.038] | 0.197 | bm25 higher |
+| ablation/dense_w150 minus dense | Recall@10 | +0.033 | [-0.083, +0.150] | 0.164 | not distinguishable |
+| ablation/dense_w150 minus dense | MRR@10 | -0.004 | [-0.137, +0.133] | 0.194 | not distinguishable |
+| ablation/dense_w150 minus dense | nDCG@10 | +0.011 | [-0.099, +0.130] | 0.165 | not distinguishable |
+| ablation/dense_w150 minus hybrid | Recall@10 | -0.142 | [-0.300, +0.000] | 0.217 | not distinguishable |
+| ablation/dense_w150 minus hybrid | MRR@10 | -0.091 | [-0.189, +0.019] | 0.151 | not distinguishable |
+| ablation/dense_w150 minus hybrid | nDCG@10 | -0.114 | [-0.208, -0.004] | 0.147 | hybrid higher |
+| ablation/dense_w150 minus rerank | Recall@10 | -0.175 | [-0.308, -0.058] | 0.187 | rerank higher |
+| ablation/dense_w150 minus rerank | MRR@10 | -0.394 | [-0.540, -0.254] | 0.208 | rerank higher |
+| ablation/dense_w150 minus rerank | nDCG@10 | -0.338 | [-0.472, -0.213] | 0.189 | rerank higher |
+| ablation/dense_w150 minus ablation/dense_bge_base | Recall@10 | +0.067 | [-0.067, +0.200] | 0.198 | not distinguishable |
+| ablation/dense_w150 minus ablation/dense_bge_base | MRR@10 | -0.074 | [-0.222, +0.070] | 0.210 | not distinguishable |
+| ablation/dense_w150 minus ablation/dense_bge_base | nDCG@10 | -0.041 | [-0.172, +0.091] | 0.190 | not distinguishable |
+| ablation/dense_w150 minus ablation/dense_w100 | Recall@10 | +0.033 | [-0.083, +0.150] | 0.164 | not distinguishable |
+| ablation/dense_w150 minus ablation/dense_w100 | MRR@10 | -0.023 | [-0.135, +0.097] | 0.169 | not distinguishable |
+| ablation/dense_w150 minus ablation/dense_w100 | nDCG@10 | -0.006 | [-0.110, +0.104] | 0.156 | not distinguishable |
+| ablation/dense_w200 minus bm25 | Recall@10 | -0.167 | [-0.317, -0.017] | 0.226 | bm25 higher |
+| ablation/dense_w200 minus bm25 | MRR@10 | -0.192 | [-0.329, -0.076] | 0.185 | bm25 higher |
+| ablation/dense_w200 minus bm25 | nDCG@10 | -0.197 | [-0.324, -0.084] | 0.175 | bm25 higher |
+| ablation/dense_w200 minus dense | Recall@10 | -0.008 | [-0.117, +0.100] | 0.159 | not distinguishable |
+| ablation/dense_w200 minus dense | MRR@10 | -0.022 | [-0.162, +0.118] | 0.206 | not distinguishable |
+| ablation/dense_w200 minus dense | nDCG@10 | -0.021 | [-0.126, +0.085] | 0.156 | not distinguishable |
+| ablation/dense_w200 minus hybrid | Recall@10 | -0.183 | [-0.317, -0.067] | 0.184 | hybrid higher |
+| ablation/dense_w200 minus hybrid | MRR@10 | -0.109 | [-0.215, -0.001] | 0.158 | hybrid higher |
+| ablation/dense_w200 minus hybrid | nDCG@10 | -0.145 | [-0.233, -0.060] | 0.126 | hybrid higher |
+| ablation/dense_w200 minus rerank | Recall@10 | -0.217 | [-0.367, -0.083] | 0.198 | rerank higher |
+| ablation/dense_w200 minus rerank | MRR@10 | -0.412 | [-0.563, -0.264] | 0.221 | rerank higher |
+| ablation/dense_w200 minus rerank | nDCG@10 | -0.370 | [-0.508, -0.237] | 0.197 | rerank higher |
+| ablation/dense_w200 minus ablation/dense_bge_base | Recall@10 | +0.025 | [-0.092, +0.150] | 0.179 | not distinguishable |
+| ablation/dense_w200 minus ablation/dense_bge_base | MRR@10 | -0.092 | [-0.252, +0.066] | 0.233 | not distinguishable |
+| ablation/dense_w200 minus ablation/dense_bge_base | nDCG@10 | -0.072 | [-0.203, +0.059] | 0.191 | not distinguishable |
+| ablation/dense_w200 minus ablation/dense_w100 | Recall@10 | -0.008 | [-0.133, +0.108] | 0.179 | not distinguishable |
+| ablation/dense_w200 minus ablation/dense_w100 | MRR@10 | -0.041 | [-0.154, +0.070] | 0.162 | not distinguishable |
+| ablation/dense_w200 minus ablation/dense_w100 | nDCG@10 | -0.037 | [-0.137, +0.051] | 0.138 | not distinguishable |
+| ablation/dense_w200 minus ablation/dense_w150 | Recall@10 | -0.042 | [-0.175, +0.100] | 0.202 | not distinguishable |
+| ablation/dense_w200 minus ablation/dense_w150 | MRR@10 | -0.018 | [-0.139, +0.096] | 0.169 | not distinguishable |
+| ablation/dense_w200 minus ablation/dense_w150 | nDCG@10 | -0.031 | [-0.139, +0.065] | 0.147 | not distinguishable |
+| ablation/dense_w250 minus bm25 | Recall@10 | -0.222 | [-0.372, -0.078] | 0.215 | bm25 higher |
+| ablation/dense_w250 minus bm25 | MRR@10 | -0.159 | [-0.329, +0.002] | 0.243 | not distinguishable |
+| ablation/dense_w250 minus bm25 | nDCG@10 | -0.199 | [-0.344, -0.071] | 0.199 | bm25 higher |
+| ablation/dense_w250 minus dense | Recall@10 | -0.064 | [-0.183, +0.036] | 0.159 | not distinguishable |
+| ablation/dense_w250 minus dense | MRR@10 | +0.011 | [-0.114, +0.131] | 0.180 | not distinguishable |
+| ablation/dense_w250 minus dense | nDCG@10 | -0.023 | [-0.115, +0.063] | 0.129 | not distinguishable |
+| ablation/dense_w250 minus hybrid | Recall@10 | -0.239 | [-0.400, -0.100] | 0.216 | hybrid higher |
+| ablation/dense_w250 minus hybrid | MRR@10 | -0.076 | [-0.179, +0.032] | 0.154 | not distinguishable |
+| ablation/dense_w250 minus hybrid | nDCG@10 | -0.147 | [-0.232, -0.068] | 0.119 | hybrid higher |
+| ablation/dense_w250 minus rerank | Recall@10 | -0.272 | [-0.433, -0.122] | 0.226 | rerank higher |
+| ablation/dense_w250 minus rerank | MRR@10 | -0.379 | [-0.551, -0.209] | 0.250 | rerank higher |
+| ablation/dense_w250 minus rerank | nDCG@10 | -0.372 | [-0.523, -0.225] | 0.218 | rerank higher |
+| ablation/dense_w250 minus ablation/dense_bge_base | Recall@10 | -0.031 | [-0.156, +0.089] | 0.181 | not distinguishable |
+| ablation/dense_w250 minus ablation/dense_bge_base | MRR@10 | -0.058 | [-0.215, +0.091] | 0.223 | not distinguishable |
+| ablation/dense_w250 minus ablation/dense_bge_base | nDCG@10 | -0.074 | [-0.199, +0.039] | 0.175 | not distinguishable |
+| ablation/dense_w250 minus ablation/dense_w100 | Recall@10 | -0.064 | [-0.192, +0.050] | 0.179 | not distinguishable |
+| ablation/dense_w250 minus ablation/dense_w100 | MRR@10 | -0.007 | [-0.129, +0.102] | 0.168 | not distinguishable |
+| ablation/dense_w250 minus ablation/dense_w100 | nDCG@10 | -0.039 | [-0.141, +0.050] | 0.140 | not distinguishable |
+| ablation/dense_w250 minus ablation/dense_w150 | Recall@10 | -0.097 | [-0.206, -0.006] | 0.147 | ablation/dense_w150 higher |
+| ablation/dense_w250 minus ablation/dense_w150 | MRR@10 | +0.016 | [-0.098, +0.122] | 0.162 | not distinguishable |
+| ablation/dense_w250 minus ablation/dense_w150 | nDCG@10 | -0.033 | [-0.127, +0.044] | 0.124 | not distinguishable |
+| ablation/dense_w250 minus ablation/dense_w200 | Recall@10 | -0.056 | [-0.167, +0.022] | 0.135 | not distinguishable |
+| ablation/dense_w250 minus ablation/dense_w200 | MRR@10 | +0.033 | [-0.089, +0.155] | 0.180 | not distinguishable |
+| ablation/dense_w250 minus ablation/dense_w200 | nDCG@10 | -0.002 | [-0.079, +0.071] | 0.112 | not distinguishable |
+| ablation/dense_w350 minus bm25 | Recall@10 | -0.158 | [-0.308, -0.025] | 0.208 | bm25 higher |
+| ablation/dense_w350 minus bm25 | MRR@10 | -0.149 | [-0.301, -0.016] | 0.209 | bm25 higher |
+| ablation/dense_w350 minus bm25 | nDCG@10 | -0.160 | [-0.306, -0.034] | 0.199 | bm25 higher |
+| ablation/dense_w350 minus dense | Recall@10 | +0.000 | [-0.083, +0.067] | 0.116 | not distinguishable |
+| ablation/dense_w350 minus dense | MRR@10 | +0.021 | [-0.093, +0.138] | 0.169 | not distinguishable |
+| ablation/dense_w350 minus dense | nDCG@10 | +0.016 | [-0.067, +0.100] | 0.123 | not distinguishable |
+| ablation/dense_w350 minus hybrid | Recall@10 | -0.175 | [-0.317, -0.050] | 0.199 | hybrid higher |
+| ablation/dense_w350 minus hybrid | MRR@10 | -0.066 | [-0.151, +0.022] | 0.125 | not distinguishable |
+| ablation/dense_w350 minus hybrid | nDCG@10 | -0.108 | [-0.186, -0.040] | 0.106 | hybrid higher |
+| ablation/dense_w350 minus rerank | Recall@10 | -0.208 | [-0.367, -0.067] | 0.213 | rerank higher |
+| ablation/dense_w350 minus rerank | MRR@10 | -0.369 | [-0.521, -0.217] | 0.224 | rerank higher |
+| ablation/dense_w350 minus rerank | nDCG@10 | -0.333 | [-0.477, -0.196] | 0.205 | rerank higher |
+| ablation/dense_w350 minus ablation/dense_bge_base | Recall@10 | +0.033 | [-0.067, +0.133] | 0.164 | not distinguishable |
+| ablation/dense_w350 minus ablation/dense_bge_base | MRR@10 | -0.048 | [-0.189, +0.085] | 0.201 | not distinguishable |
+| ablation/dense_w350 minus ablation/dense_bge_base | nDCG@10 | -0.035 | [-0.152, +0.078] | 0.169 | not distinguishable |
+| ablation/dense_w350 minus ablation/dense_w100 | Recall@10 | +0.000 | [-0.117, +0.100] | 0.165 | not distinguishable |
+| ablation/dense_w350 minus ablation/dense_w100 | MRR@10 | +0.003 | [-0.122, +0.122] | 0.175 | not distinguishable |
+| ablation/dense_w350 minus ablation/dense_w100 | nDCG@10 | +0.0002 | [-0.107, +0.095] | 0.146 | not distinguishable |
+| ablation/dense_w350 minus ablation/dense_w150 | Recall@10 | -0.033 | [-0.117, +0.033] | 0.115 | not distinguishable |
+| ablation/dense_w350 minus ablation/dense_w150 | MRR@10 | +0.026 | [-0.096, +0.138] | 0.169 | not distinguishable |
+| ablation/dense_w350 minus ablation/dense_w150 | nDCG@10 | +0.006 | [-0.097, +0.094] | 0.139 | not distinguishable |
+| ablation/dense_w350 minus ablation/dense_w200 | Recall@10 | +0.008 | [-0.117, +0.125] | 0.179 | not distinguishable |
+| ablation/dense_w350 minus ablation/dense_w200 | MRR@10 | +0.043 | [-0.040, +0.120] | 0.117 | not distinguishable |
+| ablation/dense_w350 minus ablation/dense_w200 | nDCG@10 | +0.037 | [-0.037, +0.105] | 0.105 | not distinguishable |
+| ablation/dense_w350 minus ablation/dense_w250 | Recall@10 | +0.064 | [-0.006, +0.153] | 0.118 | not distinguishable |
+| ablation/dense_w350 minus ablation/dense_w250 | MRR@10 | +0.010 | [-0.094, +0.114] | 0.153 | not distinguishable |
+| ablation/dense_w350 minus ablation/dense_w250 | nDCG@10 | +0.039 | [-0.010, +0.095] | 0.078 | not distinguishable |
+| ablation/rerank_dense_w150 minus bm25 | Recall@10 | -0.047 | [-0.183, +0.081] | 0.192 | not distinguishable |
+| ablation/rerank_dense_w150 minus bm25 | MRR@10 | +0.120 | [-0.070, +0.302] | 0.270 | not distinguishable |
+| ablation/rerank_dense_w150 minus bm25 | nDCG@10 | +0.073 | [-0.095, +0.229] | 0.235 | not distinguishable |
+| ablation/rerank_dense_w150 minus dense | Recall@10 | +0.111 | [+0.000, +0.233] | 0.171 | not distinguishable |
+| ablation/rerank_dense_w150 minus dense | MRR@10 | +0.290 | [+0.124, +0.444] | 0.232 | ablation/rerank_dense_w150 higher |
+| ablation/rerank_dense_w150 minus dense | nDCG@10 | +0.249 | [+0.120, +0.379] | 0.187 | ablation/rerank_dense_w150 higher |
+| ablation/rerank_dense_w150 minus hybrid | Recall@10 | -0.064 | [-0.206, +0.067] | 0.197 | not distinguishable |
+| ablation/rerank_dense_w150 minus hybrid | MRR@10 | +0.203 | [+0.061, +0.347] | 0.209 | ablation/rerank_dense_w150 higher |
+| ablation/rerank_dense_w150 minus hybrid | nDCG@10 | +0.125 | [+0.002, +0.249] | 0.180 | ablation/rerank_dense_w150 higher |
+| ablation/rerank_dense_w150 minus rerank | Recall@10 | -0.097 | [-0.222, +0.006] | 0.168 | not distinguishable |
+| ablation/rerank_dense_w150 minus rerank | MRR@10 | -0.100 | [-0.233, +0.033] | 0.206 | not distinguishable |
+| ablation/rerank_dense_w150 minus rerank | nDCG@10 | -0.100 | [-0.228, +0.008] | 0.173 | not distinguishable |
+| ablation/rerank_dense_w150 minus ablation/dense_bge_base | Recall@10 | +0.144 | [+0.022, +0.278] | 0.190 | ablation/rerank_dense_w150 higher |
+| ablation/rerank_dense_w150 minus ablation/dense_bge_base | MRR@10 | +0.220 | [+0.058, +0.380] | 0.234 | ablation/rerank_dense_w150 higher |
+| ablation/rerank_dense_w150 minus ablation/dense_bge_base | nDCG@10 | +0.198 | [+0.064, +0.340] | 0.201 | ablation/rerank_dense_w150 higher |
+| ablation/rerank_dense_w150 minus ablation/dense_w100 | Recall@10 | +0.111 | [+0.028, +0.217] | 0.142 | ablation/rerank_dense_w150 higher |
+| ablation/rerank_dense_w150 minus ablation/dense_w100 | MRR@10 | +0.271 | [+0.136, +0.413] | 0.201 | ablation/rerank_dense_w150 higher |
+| ablation/rerank_dense_w150 minus ablation/dense_w100 | nDCG@10 | +0.233 | [+0.123, +0.349] | 0.166 | ablation/rerank_dense_w150 higher |
+| ablation/rerank_dense_w150 minus ablation/dense_w150 | Recall@10 | +0.078 | [+0.011, +0.167] | 0.114 | ablation/rerank_dense_w150 higher |
+| ablation/rerank_dense_w150 minus ablation/dense_w150 | MRR@10 | +0.294 | [+0.167, +0.427] | 0.187 | ablation/rerank_dense_w150 higher |
+| ablation/rerank_dense_w150 minus ablation/dense_w150 | nDCG@10 | +0.239 | [+0.139, +0.347] | 0.151 | ablation/rerank_dense_w150 higher |
+| ablation/rerank_dense_w150 minus ablation/dense_w200 | Recall@10 | +0.119 | [-0.014, +0.253] | 0.196 | not distinguishable |
+| ablation/rerank_dense_w150 minus ablation/dense_w200 | MRR@10 | +0.312 | [+0.173, +0.457] | 0.207 | ablation/rerank_dense_w150 higher |
+| ablation/rerank_dense_w150 minus ablation/dense_w200 | nDCG@10 | +0.270 | [+0.148, +0.397] | 0.182 | ablation/rerank_dense_w150 higher |
+| ablation/rerank_dense_w150 minus ablation/dense_w250 | Recall@10 | +0.175 | [+0.058, +0.308] | 0.181 | ablation/rerank_dense_w150 higher |
+| ablation/rerank_dense_w150 minus ablation/dense_w250 | MRR@10 | +0.279 | [+0.128, +0.429] | 0.221 | ablation/rerank_dense_w150 higher |
+| ablation/rerank_dense_w150 minus ablation/dense_w250 | nDCG@10 | +0.272 | [+0.150, +0.401] | 0.185 | ablation/rerank_dense_w150 higher |
+| ablation/rerank_dense_w150 minus ablation/dense_w350 | Recall@10 | +0.111 | [+0.000, +0.233] | 0.171 | not distinguishable |
+| ablation/rerank_dense_w150 minus ablation/dense_w350 | MRR@10 | +0.269 | [+0.129, +0.416] | 0.206 | ablation/rerank_dense_w150 higher |
+| ablation/rerank_dense_w150 minus ablation/dense_w350 | nDCG@10 | +0.233 | [+0.116, +0.360] | 0.176 | ablation/rerank_dense_w150 higher |
 
 The interval is a paired bootstrap (10,000 resamples of the queries); MDD is the smallest difference this many queries detect 80% of the time.
 <!-- p2:end own-pairs -->
@@ -311,6 +488,78 @@ The run file for it lives in `runs/own/ablation/`.
 | ablation/dense_bge_base minus rerank | Recall@10 | -0.242 | [-0.400, -0.092] | 0.224 | rerank higher |
 | ablation/dense_bge_base minus rerank | MRR@10 | -0.320 | [-0.476, -0.170] | 0.222 | rerank higher |
 | ablation/dense_bge_base minus rerank | nDCG@10 | -0.297 | [-0.454, -0.149] | 0.221 | rerank higher |
+| ablation/dense_w100 minus bm25 | Recall@10 | -0.158 | [-0.317, -0.008] | 0.229 | bm25 higher |
+| ablation/dense_w100 minus bm25 | MRR@10 | -0.152 | [-0.294, -0.027] | 0.197 | bm25 higher |
+| ablation/dense_w100 minus bm25 | nDCG@10 | -0.160 | [-0.299, -0.036] | 0.193 | bm25 higher |
+| ablation/dense_w100 minus dense | Recall@10 | +0.000 | [-0.083, +0.100] | 0.134 | not distinguishable |
+| ablation/dense_w100 minus dense | MRR@10 | +0.019 | [-0.108, +0.147] | 0.187 | not distinguishable |
+| ablation/dense_w100 minus dense | nDCG@10 | +0.016 | [-0.083, +0.124] | 0.152 | not distinguishable |
+| ablation/dense_w100 minus hybrid | Recall@10 | -0.175 | [-0.308, -0.050] | 0.187 | hybrid higher |
+| ablation/dense_w100 minus hybrid | MRR@10 | -0.068 | [-0.173, +0.038] | 0.153 | not distinguishable |
+| ablation/dense_w100 minus hybrid | nDCG@10 | -0.108 | [-0.202, -0.014] | 0.137 | hybrid higher |
+| ablation/dense_w100 minus rerank | Recall@10 | -0.208 | [-0.350, -0.075] | 0.202 | rerank higher |
+| ablation/dense_w100 minus rerank | MRR@10 | -0.371 | [-0.528, -0.222] | 0.223 | rerank higher |
+| ablation/dense_w100 minus rerank | nDCG@10 | -0.333 | [-0.476, -0.199] | 0.202 | rerank higher |
+| ablation/dense_w150 minus bm25 | Recall@10 | -0.125 | [-0.250, -0.025] | 0.167 | bm25 higher |
+| ablation/dense_w150 minus bm25 | MRR@10 | -0.175 | [-0.324, -0.034] | 0.212 | bm25 higher |
+| ablation/dense_w150 minus bm25 | nDCG@10 | -0.166 | [-0.307, -0.038] | 0.197 | bm25 higher |
+| ablation/dense_w150 minus dense | Recall@10 | +0.033 | [-0.083, +0.150] | 0.164 | not distinguishable |
+| ablation/dense_w150 minus dense | MRR@10 | -0.004 | [-0.137, +0.133] | 0.194 | not distinguishable |
+| ablation/dense_w150 minus dense | nDCG@10 | +0.011 | [-0.099, +0.130] | 0.165 | not distinguishable |
+| ablation/dense_w150 minus hybrid | Recall@10 | -0.142 | [-0.300, +0.000] | 0.217 | not distinguishable |
+| ablation/dense_w150 minus hybrid | MRR@10 | -0.091 | [-0.189, +0.019] | 0.151 | not distinguishable |
+| ablation/dense_w150 minus hybrid | nDCG@10 | -0.114 | [-0.208, -0.004] | 0.147 | hybrid higher |
+| ablation/dense_w150 minus rerank | Recall@10 | -0.175 | [-0.308, -0.058] | 0.187 | rerank higher |
+| ablation/dense_w150 minus rerank | MRR@10 | -0.394 | [-0.540, -0.254] | 0.208 | rerank higher |
+| ablation/dense_w150 minus rerank | nDCG@10 | -0.338 | [-0.472, -0.213] | 0.189 | rerank higher |
+| ablation/dense_w200 minus bm25 | Recall@10 | -0.167 | [-0.317, -0.017] | 0.226 | bm25 higher |
+| ablation/dense_w200 minus bm25 | MRR@10 | -0.192 | [-0.329, -0.076] | 0.185 | bm25 higher |
+| ablation/dense_w200 minus bm25 | nDCG@10 | -0.197 | [-0.324, -0.084] | 0.175 | bm25 higher |
+| ablation/dense_w200 minus dense | Recall@10 | -0.008 | [-0.117, +0.100] | 0.159 | not distinguishable |
+| ablation/dense_w200 minus dense | MRR@10 | -0.022 | [-0.162, +0.118] | 0.206 | not distinguishable |
+| ablation/dense_w200 minus dense | nDCG@10 | -0.021 | [-0.126, +0.085] | 0.156 | not distinguishable |
+| ablation/dense_w200 minus hybrid | Recall@10 | -0.183 | [-0.317, -0.067] | 0.184 | hybrid higher |
+| ablation/dense_w200 minus hybrid | MRR@10 | -0.109 | [-0.215, -0.001] | 0.158 | hybrid higher |
+| ablation/dense_w200 minus hybrid | nDCG@10 | -0.145 | [-0.233, -0.060] | 0.126 | hybrid higher |
+| ablation/dense_w200 minus rerank | Recall@10 | -0.217 | [-0.367, -0.083] | 0.198 | rerank higher |
+| ablation/dense_w200 minus rerank | MRR@10 | -0.412 | [-0.563, -0.264] | 0.221 | rerank higher |
+| ablation/dense_w200 minus rerank | nDCG@10 | -0.370 | [-0.508, -0.237] | 0.197 | rerank higher |
+| ablation/dense_w250 minus bm25 | Recall@10 | -0.222 | [-0.372, -0.078] | 0.215 | bm25 higher |
+| ablation/dense_w250 minus bm25 | MRR@10 | -0.159 | [-0.329, +0.002] | 0.243 | not distinguishable |
+| ablation/dense_w250 minus bm25 | nDCG@10 | -0.199 | [-0.344, -0.071] | 0.199 | bm25 higher |
+| ablation/dense_w250 minus dense | Recall@10 | -0.064 | [-0.183, +0.036] | 0.159 | not distinguishable |
+| ablation/dense_w250 minus dense | MRR@10 | +0.011 | [-0.114, +0.131] | 0.180 | not distinguishable |
+| ablation/dense_w250 minus dense | nDCG@10 | -0.023 | [-0.115, +0.063] | 0.129 | not distinguishable |
+| ablation/dense_w250 minus hybrid | Recall@10 | -0.239 | [-0.400, -0.100] | 0.216 | hybrid higher |
+| ablation/dense_w250 minus hybrid | MRR@10 | -0.076 | [-0.179, +0.032] | 0.154 | not distinguishable |
+| ablation/dense_w250 minus hybrid | nDCG@10 | -0.147 | [-0.232, -0.068] | 0.119 | hybrid higher |
+| ablation/dense_w250 minus rerank | Recall@10 | -0.272 | [-0.433, -0.122] | 0.226 | rerank higher |
+| ablation/dense_w250 minus rerank | MRR@10 | -0.379 | [-0.551, -0.209] | 0.250 | rerank higher |
+| ablation/dense_w250 minus rerank | nDCG@10 | -0.372 | [-0.523, -0.225] | 0.218 | rerank higher |
+| ablation/dense_w350 minus bm25 | Recall@10 | -0.158 | [-0.308, -0.025] | 0.208 | bm25 higher |
+| ablation/dense_w350 minus bm25 | MRR@10 | -0.149 | [-0.301, -0.016] | 0.209 | bm25 higher |
+| ablation/dense_w350 minus bm25 | nDCG@10 | -0.160 | [-0.306, -0.034] | 0.199 | bm25 higher |
+| ablation/dense_w350 minus dense | Recall@10 | +0.000 | [-0.083, +0.067] | 0.116 | not distinguishable |
+| ablation/dense_w350 minus dense | MRR@10 | +0.021 | [-0.093, +0.138] | 0.169 | not distinguishable |
+| ablation/dense_w350 minus dense | nDCG@10 | +0.016 | [-0.067, +0.100] | 0.123 | not distinguishable |
+| ablation/dense_w350 minus hybrid | Recall@10 | -0.175 | [-0.317, -0.050] | 0.199 | hybrid higher |
+| ablation/dense_w350 minus hybrid | MRR@10 | -0.066 | [-0.151, +0.022] | 0.125 | not distinguishable |
+| ablation/dense_w350 minus hybrid | nDCG@10 | -0.108 | [-0.186, -0.040] | 0.106 | hybrid higher |
+| ablation/dense_w350 minus rerank | Recall@10 | -0.208 | [-0.367, -0.067] | 0.213 | rerank higher |
+| ablation/dense_w350 minus rerank | MRR@10 | -0.369 | [-0.521, -0.217] | 0.224 | rerank higher |
+| ablation/dense_w350 minus rerank | nDCG@10 | -0.333 | [-0.477, -0.196] | 0.205 | rerank higher |
+| ablation/rerank_dense_w150 minus bm25 | Recall@10 | -0.047 | [-0.183, +0.081] | 0.192 | not distinguishable |
+| ablation/rerank_dense_w150 minus bm25 | MRR@10 | +0.120 | [-0.070, +0.302] | 0.270 | not distinguishable |
+| ablation/rerank_dense_w150 minus bm25 | nDCG@10 | +0.073 | [-0.095, +0.229] | 0.235 | not distinguishable |
+| ablation/rerank_dense_w150 minus dense | Recall@10 | +0.111 | [+0.000, +0.233] | 0.171 | not distinguishable |
+| ablation/rerank_dense_w150 minus dense | MRR@10 | +0.290 | [+0.124, +0.444] | 0.232 | ablation/rerank_dense_w150 higher |
+| ablation/rerank_dense_w150 minus dense | nDCG@10 | +0.249 | [+0.120, +0.379] | 0.187 | ablation/rerank_dense_w150 higher |
+| ablation/rerank_dense_w150 minus hybrid | Recall@10 | -0.064 | [-0.206, +0.067] | 0.197 | not distinguishable |
+| ablation/rerank_dense_w150 minus hybrid | MRR@10 | +0.203 | [+0.061, +0.347] | 0.209 | ablation/rerank_dense_w150 higher |
+| ablation/rerank_dense_w150 minus hybrid | nDCG@10 | +0.125 | [+0.002, +0.249] | 0.180 | ablation/rerank_dense_w150 higher |
+| ablation/rerank_dense_w150 minus rerank | Recall@10 | -0.097 | [-0.222, +0.006] | 0.168 | not distinguishable |
+| ablation/rerank_dense_w150 minus rerank | MRR@10 | -0.100 | [-0.233, +0.033] | 0.206 | not distinguishable |
+| ablation/rerank_dense_w150 minus rerank | nDCG@10 | -0.100 | [-0.228, +0.008] | 0.173 | not distinguishable |
 
 The interval is a paired bootstrap (10,000 resamples of the queries); MDD is the smallest difference this many queries detect 80% of the time.
 <!-- p2:end own-ablation -->
@@ -331,6 +580,104 @@ ablation/dense_bge_base against dense (BASE = "dense" in p2/retrievers/dense_bge
 | h07 | topic | hand | 0.000 | 0.143 | +0.143 | helped |
 | c19 | topic | claude | 0.500 | 0.000 | -0.500 | hurt |
 | c12 | quote | claude | 0.200 | 0.000 | -0.200 | hurt |
+
+ablation/dense_w100 against dense (BASE = "dense" in p2/retrievers/dense_w100.py): it helped 5 queries, hurt 6 and left 19 unchanged.
+
+| Query | Class | Origin | dense RR | ablation/dense_w100 RR | Change | Effect |
+| --- | --- | --- | ---: | ---: | ---: | --- |
+| h02 | quote | hand | 0.000 | 1.000 | +1.000 | helped |
+| c12 | quote | claude | 0.200 | 1.000 | +0.800 | helped |
+| c07 | reference | claude | 0.333 | 1.000 | +0.667 | helped |
+| h07 | topic | hand | 0.000 | 0.500 | +0.500 | helped |
+| c15 | topic | claude | 0.111 | 0.250 | +0.139 | helped |
+| c17 | topic | claude | 1.000 | 0.000 | -1.000 | hurt |
+| c02 | reference | claude | 1.000 | 0.500 | -0.500 | hurt |
+| c20 | topic | claude | 0.500 | 0.200 | -0.300 | hurt |
+| c18 | topic | claude | 0.500 | 0.250 | -0.250 | hurt |
+| c19 | topic | claude | 0.500 | 0.250 | -0.250 | hurt |
+| h05 | reference | hand | 0.500 | 0.250 | -0.250 | hurt |
+
+ablation/dense_w150 against dense (BASE = "dense" in p2/retrievers/dense_w150.py): it helped 7 queries, hurt 7 and left 16 unchanged.
+
+| Query | Class | Origin | dense RR | ablation/dense_w150 RR | Change | Effect |
+| --- | --- | --- | ---: | ---: | ---: | --- |
+| h06 | quote | hand | 0.000 | 1.000 | +1.000 | helped |
+| c15 | topic | claude | 0.111 | 1.000 | +0.889 | helped |
+| c09 | quote | claude | 0.000 | 0.333 | +0.333 | helped |
+| h07 | topic | hand | 0.000 | 0.333 | +0.333 | helped |
+| c12 | quote | claude | 0.200 | 0.500 | +0.300 | helped |
+| h02 | quote | hand | 0.000 | 0.200 | +0.200 | helped |
+| c07 | reference | claude | 0.333 | 0.500 | +0.167 | helped |
+| c17 | topic | claude | 1.000 | 0.000 | -1.000 | hurt |
+| c02 | reference | claude | 1.000 | 0.500 | -0.500 | hurt |
+| c10 | quote | claude | 1.000 | 0.500 | -0.500 | hurt |
+| h05 | reference | hand | 0.500 | 0.000 | -0.500 | hurt |
+| c18 | topic | claude | 0.500 | 0.143 | -0.357 | hurt |
+| c20 | topic | claude | 0.500 | 0.167 | -0.333 | hurt |
+| c19 | topic | claude | 0.500 | 0.333 | -0.167 | hurt |
+
+ablation/dense_w200 against dense (BASE = "dense" in p2/retrievers/dense_w200.py): it helped 7 queries, hurt 8 and left 15 unchanged.
+
+| Query | Class | Origin | dense RR | ablation/dense_w200 RR | Change | Effect |
+| --- | --- | --- | ---: | ---: | ---: | --- |
+| c09 | quote | claude | 0.000 | 1.000 | +1.000 | helped |
+| c12 | quote | claude | 0.200 | 1.000 | +0.800 | helped |
+| c07 | reference | claude | 0.333 | 1.000 | +0.667 | helped |
+| h01 | reference | hand | 0.500 | 1.000 | +0.500 | helped |
+| c15 | topic | claude | 0.111 | 0.250 | +0.139 | helped |
+| h07 | topic | hand | 0.000 | 0.111 | +0.111 | helped |
+| c14 | quote | claude | 0.000 | 0.100 | +0.100 | helped |
+| c17 | topic | claude | 1.000 | 0.000 | -1.000 | hurt |
+| c02 | reference | claude | 1.000 | 0.500 | -0.500 | hurt |
+| c06 | reference | claude | 1.000 | 0.500 | -0.500 | hurt |
+| c10 | quote | claude | 1.000 | 0.500 | -0.500 | hurt |
+| c20 | topic | claude | 0.500 | 0.000 | -0.500 | hurt |
+| h05 | reference | hand | 0.500 | 0.111 | -0.389 | hurt |
+| c18 | topic | claude | 0.500 | 0.200 | -0.300 | hurt |
+| c19 | topic | claude | 0.500 | 0.200 | -0.300 | hurt |
+
+ablation/dense_w250 against dense (BASE = "dense" in p2/retrievers/dense_w250.py): it helped 7 queries, hurt 6 and left 17 unchanged.
+
+| Query | Class | Origin | dense RR | ablation/dense_w250 RR | Change | Effect |
+| --- | --- | --- | ---: | ---: | ---: | --- |
+| h07 | topic | hand | 0.000 | 1.000 | +1.000 | helped |
+| c19 | topic | claude | 0.500 | 1.000 | +0.500 | helped |
+| h01 | reference | hand | 0.500 | 1.000 | +0.500 | helped |
+| c15 | topic | claude | 0.111 | 0.500 | +0.389 | helped |
+| c12 | quote | claude | 0.200 | 0.500 | +0.300 | helped |
+| h03 | topic | hand | 0.000 | 0.250 | +0.250 | helped |
+| c09 | quote | claude | 0.000 | 0.143 | +0.143 | helped |
+| c17 | topic | claude | 1.000 | 0.000 | -1.000 | hurt |
+| c02 | reference | claude | 1.000 | 0.500 | -0.500 | hurt |
+| c20 | topic | claude | 0.500 | 0.000 | -0.500 | hurt |
+| h05 | reference | hand | 0.500 | 0.000 | -0.500 | hurt |
+| c18 | topic | claude | 0.500 | 0.333 | -0.167 | hurt |
+| c07 | reference | claude | 0.333 | 0.250 | -0.083 | hurt |
+
+ablation/dense_w350 against dense (BASE = "dense" in p2/retrievers/dense_w350.py): it helped 5 queries, hurt 5 and left 20 unchanged.
+
+| Query | Class | Origin | dense RR | ablation/dense_w350 RR | Change | Effect |
+| --- | --- | --- | ---: | ---: | ---: | --- |
+| c09 | quote | claude | 0.000 | 1.000 | +1.000 | helped |
+| c12 | quote | claude | 0.200 | 1.000 | +0.800 | helped |
+| h01 | reference | hand | 0.500 | 1.000 | +0.500 | helped |
+| c15 | topic | claude | 0.111 | 0.333 | +0.222 | helped |
+| h07 | topic | hand | 0.000 | 0.200 | +0.200 | helped |
+| c17 | topic | claude | 1.000 | 0.125 | -0.875 | hurt |
+| h05 | reference | hand | 0.500 | 0.000 | -0.500 | hurt |
+| c20 | topic | claude | 0.500 | 0.167 | -0.333 | hurt |
+| c19 | topic | claude | 0.500 | 0.250 | -0.250 | hurt |
+| c07 | reference | claude | 0.333 | 0.200 | -0.133 | hurt |
+
+ablation/rerank_dense_w150 against rerank (BASE = "rerank" in p2/retrievers/rerank_dense_w150.py): it helped 1 queries, hurt 4 and left 25 unchanged.
+
+| Query | Class | Origin | rerank RR | ablation/rerank_dense_w150 RR | Change | Effect |
+| --- | --- | --- | ---: | ---: | ---: | --- |
+| h03 | topic | hand | 0.000 | 1.000 | +1.000 | helped |
+| c11 | quote | claude | 1.000 | 0.000 | -1.000 | hurt |
+| c13 | quote | claude | 1.000 | 0.000 | -1.000 | hurt |
+| c14 | quote | claude | 1.000 | 0.000 | -1.000 | hurt |
+| c17 | topic | claude | 1.000 | 0.000 | -1.000 | hurt |
 
 RR is the reciprocal rank of the first relevant document in the top 10 (0 when none is there), the per-query value behind MRR@10; the queries at the top of each list are the ones to read.
 <!-- p2:end own-ablation-queries -->
@@ -416,6 +763,7 @@ Every trace in traces/ that records a Claude call:
 | Trace | System | Spans | Claude calls | Saved | Input tokens | Output tokens | Seconds | Input per span | Output per span | Seconds per span |
 | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | traces/answers-rerank.jsonl | rerank | 12 | 24 | 4 | 202,019 | 5,104 | 90.9 | 16,835 | 425 | 7.6 |
+| traces/own-own-ablation-rerank_dense_w150.jsonl | rerank_dense_w150 | 30 | 30 | 0 | 341,209 | 4,029 | 127.9 | 11,374 | 134 | 4.3 |
 | traces/own-own-rerank.jsonl | rerank | 30 | 30 | 10 | 485,344 | 3,217 | 104.0 | 16,178 | 107 | 3.5 |
 | traces/shared-practice-rerank.jsonl | rerank | 20 | 20 | 20 | 289,025 | 1,930 | 131.7 | 14,451 | 96 | 6.6 |
 | traces/shared-test-rerank.jsonl | rerank | 40 | 40 | 40 | 518,873 | 3,640 | 189.5 | 12,972 | 91 | 4.7 |
@@ -440,6 +788,11 @@ Systems that do not call Claude, from traces/retrieval/ on the machine that last
 | Trace | System | Queries | Seconds | Milliseconds per query |
 | --- | --- | ---: | ---: | ---: |
 | traces/retrieval/own-own-ablation-dense_bge_base.jsonl | dense_bge_base | 30 | 1.46 | 48.8 |
+| traces/retrieval/own-own-ablation-dense_w100.jsonl | dense_w100 | 30 | 0.71 | 23.7 |
+| traces/retrieval/own-own-ablation-dense_w150.jsonl | dense_w150 | 30 | 0.73 | 24.2 |
+| traces/retrieval/own-own-ablation-dense_w200.jsonl | dense_w200 | 30 | 0.72 | 24.0 |
+| traces/retrieval/own-own-ablation-dense_w250.jsonl | dense_w250 | 30 | 0.86 | 28.8 |
+| traces/retrieval/own-own-ablation-dense_w350.jsonl | dense_w350 | 30 | 0.87 | 29.1 |
 | traces/retrieval/own-own-bm25.jsonl | bm25 | 30 | 0.13 | 4.3 |
 | traces/retrieval/own-own-dense.jsonl | dense | 30 | 1.17 | 39.1 |
 | traces/retrieval/own-own-hybrid.jsonl | hybrid | 30 | 1.64 | 54.7 |
@@ -463,7 +816,19 @@ _No stretch runs yet (stretch option 5): `uv run p2 run --corpus own --queries e
 
 Write the five things here.
 
-I am going to experiment with the chunk size to see if a different chunk size would produce better results. My hypothesis is that the chunk size will not make a ton of difference but I suspect a slight drop in MRR scores on chunk sizes of 100, 150, and 350. I suspect a chunk size of 200 to be about the same but I suspect a chunk size of 250 to have a slight increase of 0.01-.0.02. 
+I am going to experiment with the chunk size to see if a different chunk size would produce better results. My hypothesis is that the chunk size will not make a ton of difference but I suspect a slight drop in MRR scores on chunk sizes of 100, 150, and 350. I suspect a chunk size of 200 to be about the same but I suspect a chunk size of 250 to have a slight increase in MRR of 0.01-.0.02. 
+
+My prediction on the hybrid_w150 vs hybrid is that the recall will be similar and the MRR will be about 0.1 (a non-distinguishable amount higher). I predict the same for the rerank_hybrid_w150 vs rerank. 
+
+Option 4. I experimented with changing the chunk size. I added a new retriever for each chunk size value I wanted to test and put each file in with the other retrievers in p2/retrievers. 
+
+Table name: own-ablation
+
+The interval does not let me claim that there is a chunk size that will produce better results most of the time. The interval does let me claim that for the two rerank systems tested, performance increased a distinguishable amount for almost all cases and did not change by a distinguishable amount for the rest of the cases compared to a non-rerank. I can not say which rerank will perform best though. 
+
+I would also test just the hybrid using dense_w150 because I am changing two things going from dense_w150 to rerank_dense_w150. A higher dense score does not necessarily mean a higher hybrid score which affects the rerank score. A distinguishably higher MRR hybrid score with a similar recall score would show that using a smaller chunk size results in a better hybrid system. It does not guarantee anything about rerank though. 
+
+I changed two things from rerank to rerank_dense_w150 where I changed the 
 
 ---
 
