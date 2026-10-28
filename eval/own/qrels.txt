@@ -20,3 +20,27 @@ h08	0	isaiah_05	1
 h09	0	proverbs_06	1
 h10	0	hebrews_12	1
 h10	0	proverbs_03	1
+
+c01	0	joshua_01	1
+c02	0	jeremiah_29	1
+c03	0	ecclesiastes_03	1
+c04	0	ruth_01	1
+c05	0	romans_08	1
+c06	0	isaiah_40	1
+c07	0	1_corinthians_13	1
+c08	0	psalms_23	1
+c09	0	ecclesiastes_01	1
+c09	0	ecclesiastes_12	1
+c10	0	john_01	1
+c11	0	proverbs_16	1
+c12	0	romans_06	1
+c13	0	psalms_137	1
+c14	0	isaiah_02	1
+c15	0	1_samuel_17	1
+c16	0	daniel_03	1
+c17	0	genesis_22	1
+c17	0	hebrews_11	1
+c18	0	james_02	1
+c19	0	esther_05	1
+c19	0	esther_04	1
+c20	0	luke_15	1
